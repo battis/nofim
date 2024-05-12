@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+body, td, th {
+	padding: 0px;
+	margin: 0px;
+	font-size: 10pt;
+	font-family: sans-serif;
+}
+
+h1 {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+#masthead {
+	border-color: #b3b3b3;
+	left: 5px;
+	bottom: 5px;
+	background-color: white;
+	z-index: 2;
+	height: 55px;
+	width: 500px;
+	float: none;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+}
+
+
+#side-placemark {
+	border-color: #b3b3b3;
+	left: 5px;
+	top: 100px;
+	background-color: white;
+	z-index: 2;
+	height: auto;
+	width: auto;
+	float: none;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+}
+
+#map3d {
+	padding: 0px;
+	margin: 0px;
+	z-index: 1;
+}
+
+#side-placemark ul {
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+</style>
+<title>Six Day War - Preview</title>
+<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAe3l9bwtdfi-2Qmw7CEJy6xR3SWMvQJgr1Iq8n_r27ptfJik3NxT0vK_0b8NYowfFXYNenAY0XAObNw"></script>
+<script type="text/javascript"><!--
+var ge;
+var layers = {
+	'6daywar': null,
+	'prewar': null,
+	'day1': null,
+	'day2': null,
+	'day3': null,
+	'day4': null,
+	'day5': null,
+	'day6': null
+};
+
+google.load("earth", "1");
+
+function init()
+{
+  google.earth.createInstance('map3d', initCallback, failureCallback);
+}
+
+function initCallback(instance)
+{
+	ge = instance;
+	ge.getWindow().setVisibility(true);
+	
+	// add a navigation and timeline control
+	ge.getNavigationControl().setVisibility(ge.VISIBILITY_AUTO);
+	ge.getTime().getControl().setVisibility(ge.VISIBILITY_AUTO);
+	
+	// set the viewpoint
+	var la = ge.createLookAt('');
+	la.set(
+		31.260379, // latitude
+		37.310693, // longitude
+		0, // altitude
+		ge.ALTITUDE_RELATIVE_TO_GROUND, 
+		0, // heading
+		0, // tilt
+		1514099 // range (inverse of zoom)
+	);
+	ge.getView().setAbstractView(la);
+			
+	document.getElementById('installed-plugin-version').innerHTML = ge.getPluginVersion().toString();
+}
+
+function failureCallback(errorCode)
+{ }
+
+function loadKml(file) {
+  var kmlUrl = 'http://www.mchschool.org/nofim/6daywar/kml/' + file + '.kml';
+
+  // fetch the KML
+  google.earth.fetchKml(ge, kmlUrl, function(kmlObject) {
+    // NOTE: we still have access to the 'file' variable (via JS closures)
+
+    if (kmlObject) {
+      // show it on Earth
+      // layers[file] = kmlObject;
+      ge.getFeatures().appendChild(kmlObject);
+      if (kmlObject.getAbstractView() !== null)
+      {
+      	ge.getView().setAbstractView(kmlObject.getAbstractView());
+      }
+
+    } else {
+      // bad KML
+      layers[file] = null;
+
+      // wrap alerts in API callbacks and event handlers
+      // in a setTimeout to prevent deadlock in some browsers
+      setTimeout(function() {
+        alert('Bad or null KML.');
+      }, 0);
+    }
+  });
+}
+
+function showLayer(newLayer)
+{
+	loadKml(newLayer);
+/*
+	for(layer in layers)
+	{
+		if (layer != newLayer)
+		{
+			ge.getFeatures().removeChild(layer);
+		}
+	}
+	if (newLayer == 'prewar')
+	{
+		var timestamp = ge.createTimeStamp('');
+		timestamp.getWhen().set('1955');
+		ge.getTime.setTimePrimitive(timestamp);
+	}
+	//FIXME it seems like we need to update the timeline to reflect the new layer? Turn on autozoom?
+	ge.getFeatures().appendChild(layers[newLayer]);
+*/
+}
+
+		function checkAvailableHeight()
+		{
+			var map3d = document.getElementById("map3d");
+			map3d.style.height = document.body.clientHeight;
+		}
+
+window.onLoad = checkAvailableHeight;
+window.onResize = checkAvailableHeight;
+
+
+--></script>
+</head>
+<body onload="init();">
+	<div id="map3d" style="height: 100%; width: 100%;"></div>
+	<div id="masthead"><h1>Six Day War</h1>
+	<p>The <a href="http://www.google.com/earth">Google Earth</a> file which powers this view is available for <a href="http://www.mchschool.org/nofim/6daywar/kml/6daywar.kml">download</a>.</p></div>
+	<div id="side-placemark">
+		<ul>
+			<li><a href="javascript:showLayer('6daywar');">Everything</a></li>
+			<hr />
+			<li><a href="javascript:showLayer('prewar');">Pre War</a></li>
+			<li><a href="javascript:showLayer('day1');">Day 1</a></li>
+			<li><a href="javascript:showLayer('day2');">Day 2</a></li>
+			<li><a href="javascript:showLayer('day3');">Day 3</a></li>
+			<li><a href="javascript:showLayer('day4');">Day 4</a></li>
+			<li><a href="javascript:showLayer('day5');">Day 5</a></li>
+			<li><a href="javascript:showLayer('day6');">Day 6</a></li>
+		</ul>	
+	</div>
+</body>
+</html>

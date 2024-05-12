@@ -1,0 +1,2804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Six Day War</name>
+		<open>1</open>
+		<LookAt>
+			<gx:TimeStamp>
+				<when>1967-06-11</when>
+			</gx:TimeStamp>
+			<longitude>37.31069116206416</longitude>
+			<latitude>31.26037631648837</latitude>
+			<altitude>0</altitude>
+			<heading>-7.468764692683683e-07</heading>
+			<tilt>0</tilt>
+			<range>1514936.330006588</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Style id="sn_prelude">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://battis.net/sandbox/nofim/6daywar/icons/prelude.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="sn_assault">
+			<IconStyle>
+				<Icon>
+					<scale>1.3</scale>
+					<href>http://battis.net/sandbox/nofim/6daywar/icons/assault.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="sn_conquer">
+			<IconStyle>
+				<Icon>
+					<scale>1.3</scale>
+					<href>http://mchschool.org/nofim/6daywar/icons/conquer.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="sn_foreignrelations">
+			<IconStyle>
+				<Icon>
+					<scale>1.3</scale>
+					<href>http://battis.net/sandbox/nofim/6daywar/icons/foreignrelations.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="sn_noicon">
+			<IconStyle>
+				<Icon>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+			<LabelStyle>
+				<color>ff0000ff</color>
+				<scale>1.5</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>80ffffff</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_prelude">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://battis.net/sandbox/nofim/6daywar/icons/prelude.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="sh_assault">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://battis.net/sandbox/nofim/6daywar/icons/assault.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="sh_conquer">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://mchschool.org/nofim/6daywar/icons/conquer.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="sh_foreignrelations">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://battis.net/sandbox/nofim/6daywar/icons/foreignrelations.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="sh_noicon">
+			<IconStyle>
+				<Icon>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+			<LabelStyle>
+				<color>ff0000ff</color>
+				<scale>1.5</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff0900ff</color>
+				<width>5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>80ffffff</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="msn_prelude">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_prelude</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_prelude</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_assault">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_assault</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_assault</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_conquer">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_conquer</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_conquer</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_foreignrelations">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_foreignrelations</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_foreignrelations</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_noicon">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_noicon</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_noicon</styleUrl>
+			</Pair>
+		</StyleMap>
+		<gx:Tour id="intro-tour">
+			<name>Introduction</name>
+			<description><![CDATA[&#x25B2; Double-click "Introduction" to start!]]></description>
+			<visibility>1</visibility>
+			<gx:Playlist>
+				<gx:SoundCue>
+					<!-- 01_intro.mp3 0:00:00 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/01_intro.mp3</href>
+				</gx:SoundCue>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Show Maps, Hide Prewar Map, Hide Day 1 Map, Hide Day 2 Map, Hide Day 3 Map, Hide Day 4 Map, Hide Day 5 Map, Show Day 6 Map, Show Tour Data, Show Israeli Flag 0:00:00 -->
+						<Change>
+							<Folder targetId="maps">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="prewar_map">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="day5_map">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="day4_map">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="day3_map">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="day2_map">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="day1_map">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="day6_map">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="tourdata">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="israeli-flag">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:FlyTo>
+					<gx:duration>5</gx:duration>
+					<LookAt>
+						<!-- Israel 0:00:00 -->
+						<gx:TimeSpan>
+							<begin>1967-06-05T00:00:00Z</begin>
+							<end>1967-06-11T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>37.31069116206416</longitude>
+						<latitude>31.26037631648837</latitude>
+						<altitude>0</altitude>
+						<heading>-7.468764692683683e-07</heading>
+						<tilt>0</tilt>
+						<range>1514936.330006588</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>19</gx:duration>
+				</gx:Wait>
+				<gx:SoundCue>
+					<!-- 02_war_background.mp3 0:00:24 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/02_war_background.mp3</href>
+				</gx:SoundCue>
+				<gx:FlyTo>
+					<gx:duration>1</gx:duration>
+					<LookAt>
+						<!-- Israel 0:00:00 -->
+						<gx:TimeSpan>
+							<begin>1948-01-01T00:00:00Z</begin>
+							<end>1967-06-11T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>37.31069116206416</longitude>
+						<latitude>31.26037631648837</latitude>
+						<altitude>0</altitude>
+						<heading>-7.468764692683683e-07</heading>
+						<tilt>0</tilt>
+						<range>1514936.330006588</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>1</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide Israeli Flag, Show Syrian Flag 0:00:26 -->
+						<Change>
+							<Folder targetId="israeli-flag">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="syrian-flag">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>1</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Show Jordanian Flag 0:00:27 -->
+						<Change>
+							<Folder targetId="jordanian-flag">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>1</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Show Iraqi Flag 0:00:28 -->
+						<Change>
+							<Folder targetId="iraqi-flag">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>1</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Show Egyptian Flag 0:00:29 -->
+						<Change>
+							<Folder targetId="egypt-flag">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>10</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide Jordanian Flag, Hide Syrian Flag, Hide Iraqi Flag, Hide Egyptian Flag 0:00:39 -->
+						<Change>
+							<Folder targetId="jordanian-flag">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="syrian-flag">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="iraqi-flag">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="egypt-flag">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>4</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Show Operation Focus Picture 0:00:43 -->
+						<Change>
+							<Folder targetId="operation-focus-plane">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>1</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide Operation Focus Picture, Show Sinai Peninsula 0:00:44 -->
+						<Change>
+							<Folder targetId="operation-focus-plane">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>2</gx:duration>
+				</gx:Wait>
+				<gx:FlyTo>
+					<gx:duration>1</gx:duration>
+					<LookAt>
+						<!-- Israel 0:00:00 -->
+						<gx:TimeSpan>
+							<begin>1967-06-05T00:00:00Z</begin>
+							<end>1967-06-11T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>34.00010153106388</longitude>
+						<latitude>29.50012806792746</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0003165532238424603</heading>
+						<tilt>0</tilt>
+						<range>683916.8955690163</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- HIde Picture of Eastern Jerusalem Soldiers with the WALL 0:00:48 -->
+						<Change>
+							<Folder targetId="solders-on-wall">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:FlyTo>
+					<gx:duration>1</gx:duration>
+					<LookAt>
+						<!-- Israel 0:00:00 -->
+						<gx:TimeSpan>
+							<begin>1967-06-05T00:00:00Z</begin>
+							<end>1967-06-11T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>35.68949824639871</longitude>
+						<latitude>32.99135049999187</latitude>
+						<altitude>0</altitude>
+						<heading>-8.387590529168526e-06</heading>
+						<tilt>0</tilt>
+						<range>125787.1038859656</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:FlyTo>
+					<gx:duration>1</gx:duration>
+					<LookAt>
+						<!--  -->
+						<gx:TimeSpan>
+							<begin>1967-06-05T00:00:00Z</begin>
+							<end>1967-06-11T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>35.25014517717416</longitude>
+						<latitude>31.76960935110955</latitude>
+						<altitude>0</altitude>
+						<heading>0.02436661883923804</heading>
+						<tilt>0</tilt>
+						<range>12122.44539644738</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>14</gx:duration>
+				</gx:Wait>
+				<gx:SoundCue>
+					<!-- 03_navigation_tools.mp3 0:01:04 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/03_navigation_tools.mp3</href>
+				</gx:SoundCue>
+				<gx:FlyTo>
+					<gx:duration>5</gx:duration>
+					<LookAt>
+						<!--  -->
+						<gx:TimeSpan>
+							<begin>1967-06-05T00:00:00Z</begin>
+							<end>1967-06-06T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>37.31069116206416</longitude>
+						<latitude>31.26037631648837</latitude>
+						<altitude>0</altitude>
+						<heading>-7.468764692683683e-07</heading>
+						<tilt>0</tilt>
+						<range>1514936.330006588</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Show pause button 0:01:09 -->
+						<Change>
+							<Folder targetId="pause-button">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>6</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide pause button, Show play button 0:01:15 -->
+						<Change>
+							<Folder targetId="pause-button">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="play-button">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>5</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide play button, Show Zoom button 0:01:20 -->
+						<Change>
+							<Folder targetId="play-button">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="zoom-button">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>5</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide zoom button 0:01:25 -->
+						<Change>
+							<Folder targetId="zoom-button">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>2</gx:duration>
+				</gx:Wait>
+				<gx:SoundCue>
+					<!-- 04_nasser_introduction.mp3 0:01:27 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/04_nasser_introduction.mp3</href>
+				</gx:SoundCue>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Show Gemal Abdel Nassar 0:01:27 -->
+						<Change>
+							<Folder targetId="nasser">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:FlyTo>
+					<gx:duration>5</gx:duration>
+					<LookAt>
+						<!--  -->
+						<gx:TimeSpan>
+							<begin>1953-01-01T00:00:00Z</begin>
+							<end>1954-01-01T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>29.41291315714687</longitude>
+						<latitude>26.5788070280765</latitude>
+						<altitude>0</altitude>
+						<heading>-0.6546905390438476</heading>
+						<tilt>0</tilt>
+						<range>1927261.630748311</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>7</gx:duration>
+				</gx:Wait>
+				<gx:SoundCue>
+					<!-- 05_prewar_tensions.mp3 0:01:39 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/05_prewar_tensions.mp3</href>
+				</gx:SoundCue>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide Gemal Abdel Nassar, Show Suez Canal 0:01:39 -->
+						<Change>
+							<Folder targetId="suezcanal">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="nasser">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:FlyTo>
+					<gx:duration>5</gx:duration>
+					<LookAt>
+						<!--  -->
+						<gx:TimeSpan>
+							<begin>1956-01-01T00:00:00Z</begin>
+							<end>1957-01-01T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>37.50539476835417</longitude>
+						<latitude>28.86773735751336</latitude>
+						<altitude>0</altitude>
+						<heading>-2.32069502522869</heading>
+						<tilt>0</tilt>
+						<range>2174908.525359317</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>16</gx:duration>
+				</gx:Wait>
+				<gx:SoundCue>
+					<!-- 06_syrian_tension_from_attack.mp3 0:02:00 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/06_syrian_tension_from_attack.mp3</href>
+				</gx:SoundCue>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide Suez Canal, Show Syrian Air Assault 0:02:00 -->
+						<Change>
+							<Folder targetId="suezcanal">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="fighters">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:FlyTo>
+					<gx:duration>5</gx:duration>
+					<LookAt>
+						<!--  -->
+						<gx:TimeSpan>
+							<begin>1965-01-01T00:00:00Z</begin>
+							<end>1966-01-01T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>38.49711198186916</longitude>
+						<latitude>34.80871884808718</latitude>
+						<altitude>0</altitude>
+						<heading>-0.2914501096027647</heading>
+						<tilt>0</tilt>
+						<range>792230.8839139596</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>10</gx:duration>
+				</gx:Wait>
+				<gx:SoundCue>
+					<!-- 07_ussr.mp3 0:02:15 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/07_ussr.mp3</href>
+				</gx:SoundCue>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide Syrian Air Assault, Show USSR flag 0:02:15 -->
+						<Change>
+							<Folder targetId="fighters">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="ussr-flag">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:FlyTo>
+					<gx:duration>5</gx:duration>
+					<LookAt>
+						<!--  -->
+						<gx:TimeSpan>
+							<begin>1965-01-01T00:00:00Z</begin>
+							<end>1966-01-01T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>37.50539476835417</longitude>
+						<latitude>28.86773735751336</latitude>
+						<altitude>0</altitude>
+						<heading>-2.32069502522869</heading>
+						<tilt>0</tilt>
+						<range>2174908.525359317</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>8</gx:duration>
+				</gx:Wait>
+				<gx:SoundCue>
+					<!-- 08_israel_and_syria_trade_air_attacks.mp3 0:02:28 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/08_israel_and_syria_trade_air_attacks.mp3</href>
+				</gx:SoundCue>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide USSR flag, Show IAF air assault 0:02:28 -->
+						<Change>
+							<Folder targetId="ussr-flag">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="israel-and-syria-image2">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:FlyTo>
+					<gx:duration>5</gx:duration>
+					<LookAt>
+						<!--  -->
+						<gx:TimeSpan>
+							<begin>1966-01-01T00:00:00Z</begin>
+							<end>1967-01-01T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>38.49711198186916</longitude>
+						<latitude>34.80871884808718</latitude>
+						<altitude>0</altitude>
+						<heading>-0.2914501096027647</heading>
+						<tilt>0</tilt>
+						<range>792230.8839139596</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>4</gx:duration>
+				</gx:Wait>
+				<gx:SoundCue>
+					<!-- 09_soldiers_killed_by_landmines.mp3 0:02:37 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/09_soldiers_killed_by_landmines.mp3</href>
+				</gx:SoundCue>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide IAF air assualt, Show hebron 0:02:37 -->
+						<Change>
+							<Folder targetId="israel-and-syria-image2">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:FlyTo>
+					<gx:duration>5</gx:duration>
+					<LookAt>
+						<!--  -->
+						<gx:TimeSpan>
+							<begin>1966-01-01T00:00:00Z</begin>
+							<end>1967-01-01T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>35.298420476884</longitude>
+						<latitude>31.53614933926151</latitude>
+						<altitude>0</altitude>
+						<heading>0.1004848771204381</heading>
+						<tilt>0</tilt>
+						<range>222580.0835515608</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>4</gx:duration>
+				</gx:Wait>
+				<gx:SoundCue>
+					<!-- 10_events_that_caused_war.mp3 0:02:46 -->
+					<href>http://battis.net/sandbox/nofim/6daywar/audio/10_events_that_caused_war.mp3</href>
+				</gx:SoundCue>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide Hebron, Show Israel/Syrian assault 0:02:46 -->
+						<Change>
+							<Folder targetId="arab-aircrafts-1967-image1">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:FlyTo>
+					<gx:duration>5</gx:duration>
+					<LookAt>
+						<!--  -->
+						<gx:TimeSpan>
+							<begin>1965-01-01T00:00:00Z</begin>
+							<end>1966-01-01T00:00:00Z</end>
+						</gx:TimeSpan>
+						<longitude>37.31069116206416</longitude>
+						<latitude>31.26037631648837</latitude>
+						<altitude>0</altitude>
+						<heading>-7.468764692683683e-07</heading>
+						<tilt>0</tilt>
+						<range>1514936.330006588</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+				</gx:FlyTo>
+				<gx:Wait>
+					<gx:duration>2</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide Israel/Syrian assault, Show CinC Egypt with UN 0:02:53 -->
+						<Change>
+							<Folder targetId="arab-aircrafts-1967-image1">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="nasser2">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>6</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide CinC Egypt with UN 0:02:59 -->
+						<Change>
+							<Folder targetId="nasser2">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>2</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Show Jordan/Egypt pact 0:03:01 -->
+						<Change>
+							<Folder targetId="jordan-pact">
+								<visibility>1</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>18</gx:duration>
+				</gx:Wait>
+				<gx:AnimatedUpdate>
+					<gx:duration>1</gx:duration>
+					<Update>
+						<targetHref>
+						</targetHref>
+						<!-- Hide Jordan/Egypt pact, Hide Tour Data 0:03:19 -->
+						<Change>
+							<Folder targetId="jordan-pact">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+						<Change>
+							<Folder targetId="tourdata">
+								<visibility>0</visibility>
+							</Folder>
+						</Change>
+					</Update>
+				</gx:AnimatedUpdate>
+				<gx:Wait>
+					<gx:duration>1</gx:duration>
+				</gx:Wait>
+			</gx:Playlist>
+		</gx:Tour>
+		<Folder id="prewar">
+			<name>PreWar</name>
+			<Placemark>
+				<name>Egypt Gov. informs UN and tells them to leave</name>
+				<description><![CDATA[<h1>Withdrawal of the United Nations Emergency Force</h1>
+					<img src="http://battis.net/sandbox/nofim/6daywar/images/un-emergency-force-withdrawal-image1.png" align="right">
+					<p>At 10:00 p.m. on 16 May, the commander of UNEF, General Indar Jit Rikhye, was handed a letter from General Mohammed Fawzy, Chief of Staff of the United Arab Republic, reading: "To your information, I gave my instructions to all U.A.R. armed forces to be ready for action against Israel, the moment it might carry out any aggressive action against any Arab country. Due to these instructions our troops are already concentrated in Sinai on our eastern border. For the sake of complete security of all U.N. troops which install OPs along our borders, I request that you issue your orders to withdraw all these troops immediately." Rikhye said he would report to the Secretary-General for instructions. The UN Secretary-General U Thant attempted to negotiate with the Egyptian government, but on May 18 the Egyptian Foreign Minister informed nations with troops in UNEF that the UNEF mission in Egypt and the Gaza Strip had been terminated and that they must leave immediately, and Egyptian forces prevented UNEF troops from entering their posts.</p>
+					<p><img src="http://battis.net/sandbox/nofim/6daywar/images/un-emergency-force-withdrawal-image1.png" align="right">The withdrawal of UNEF was to be orderly, deliberate and dignified and spaced over a period of some weeks. The troops were to be withdrawn by air and by sea from Port Said. The withdrawal plan envisaged that the last personnel of UNEF would leave the area on 30 June 1967. On the morning of 5 June 1967, UNEF was still concentrated in its camps preparing for the eventual withdrawal. The Commander of UNEF reported violations of United Arab Republic air space by Israel aircraft over Gaza and El Arish, heavy fighting between Egypt and Israel forces across the frontier, and the strafing by Israel aircraft of a UNEF convoy on the road between Gaza and Rafah, killing three Indian soldiers and wounding others.</p>]]></description>
+				<TimeSpan>
+					<begin>1953-06-18T12:39:42.759004291Z</begin>
+					<end>1967-06-10T18:15:00Z</end>
+				</TimeSpan>
+				<styleUrl>#sn_foreignrelations</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>31.24198333333333,30.06804166666667,31.16257670903548</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Syrian Shelling of DMZ</name>
+				<description>Israel responses to a Syrian attack with an attack destroying 2 Mig 21 over Golan and 4 over Damascus.</description>
+				<TimeStamp>
+					<when>1967-04-07T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>35.73257222222222,33.00141388888889,-189.2713404520691</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Samu Raid</name>
+				<description><![CDATA[<h1>The Samu Incident</h1>
+					<p><img src="http://battis.net/sandbox/nofim/6daywar/images/the-samu-incident-image1.png" align="left">The Samu attack was the largest of such operations that Israeli armed forces have lead across the borders in retaliation to infiltrating terrorist who have hit civilian and military targets along the borders throughout the late 50s and 60s. On 11 November 1966 an Israeli border patrol hit a mine, killing three soldiers and injuring six others. The Israelis believed the mine had been planted by militants from Es Samu on the West Bank. Early on the morning of 13 November, King of Jordan Hussein bin Talal, who had been having secret meetings with Abba Eban and Golda Meir for three years concerning peace and secure borders, received an unsolicited message from his Israeli contacts stating that Israel had no intention of attacking Jordan. However, at 5:30 a.m. in what Hussein described as an action carried out "under the pretext of 'reprisals against the terrorist activities of the (Palestine Liberation Organization) P.L.O.' Israeli forces attacked Es Samu, a village in the Jordanian-occupied West Bank of 4,000 inhabitants, all of them Palestinian refugees whom the Israelis accused of harboring terrorists from Syria". An Israeli force of around 3,000-4,000 soldiers backed by tanks and aircraft divided into a reserve force, which remained on the Israeli side of the border, and two raiding parties, which crossed into the Jordanian-occupied West Bank. 50 houses were blown up, but the inhabitants had been evacuated hours before. The 48th Infantry Battalion of the Jordanian Army ran into the Israeli forces northwest of Samu, and two companies approaching from the northeast were intercepted by the Israelis, while a platoon of Jordanians entered Samu. In the ensuing battles, three Jordanian civilians and 15 soldiers were killed; 54 other soldiers and 96 civilians were wounded. The commander of the Israeli paratroop battalion, Colonel Yoav Shaham, was killed and 10 other Israeli soldiers were wounded. Two days later, in a memo to U.S. President Lyndon B. Johnson, his Special Assistant Walt Rostow wrote: "retaliation is not the point in this case. This 3000-man raid with tanks and planes was out of all proportion to the provocation and was aimed at the wrong target" and went on to describe the damage done to US and Israeli interests: "They've wrecked a good system of tacit cooperation between Hussein and the Israelis... They've undercut Hussein. Facing a storm of criticism from Jordanians, Palestinians, and his Arab neighbors for failing to protect Samu, Hussein ordered a nation-wide mobilization on 20 November.</p>
+					<p align="center"><img src="http://battis.net/sandbox/nofim/6daywar/images/the-samu-incident-image2.png"></p>]]></description>
+				<TimeStamp>
+					<when>1967-05-13T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>35.06703055555556,31.51963055555555,879.0182111072913</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Operation fajr cancelled</name>
+				<description>Egypt plans for an attack Israel until it is figured out that Israel is prepred.</description>
+				<TimeStamp>
+					<when>1967-05-27T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>34.259475,30.64899444444444,248.4095972528222</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jordan-Egypt Pact</name>
+				<description>Egypt signs a pact allowing it to control the Jordan Army (Jordan Legion)</description>
+				<TimeStamp>
+					<when>1967-05-30T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>36.09429444444444,30.62771666666666,894.6081128368547</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hebron incident</name>
+				<description>Israeli soldiers are killed by lane mine near Hebron. King Hussein of Jordan apologizes.</description>
+				<TimeStamp>
+					<when>1966-11-10T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>35.09797777777778,31.53458888888889,910.8711847374985</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Revolution in Egypt</name>
+				<description><![CDATA[<h1>Gamal Abdul Nasser</h1>
+					<img src="http://battis.net/sandbox/nofim/6daywar/images/gamal-abdul-nasser-image1.png" align="right">
+					<p>Gamal Abdul Nasser (January 15, 1918 – September 28, 1970) was the second President of Egypt from 1956 until his death in 1970. He was one of the leaders of the Egyptian Revolution of 1952, which removed King Farouk I and heralded a new period of industrialization in Egypt, together with a profound advancement of Arab nationalism, including a short-lived union with Syria. Nasser inspired anti- colonial and pan-Arab revolutions in Algeria, Libya, Iraq and Yemen, and played a major role in founding the Palestine Liberation Organization, in 1964, and the international Non-Aligned Movement.</p>
+					<p>Nasser is seen as one of the most important political figures in both modern Arab history and Developing World politics of the Twentieth Century. He is well-known for his nationalist policies many in the general Arab populace still view Nasser as a symbol of Arab dignity and freedom.</p>
+					<p>Nasser won $40 million in combined financial aid for economic development from the British and Americans. In 1955, the United States promised fifty-six million dollars, along with two-hundred million dollars through the World Bank, to aid in financing the construction of the Aswan High Dam, which Nasser and his allies had begun planning shortly after the revolution. The planned dam would create the largest man-made lake in the world, generate electric power for much of Egypt, provide water for irrigation, and control flooding along the Nile River.</p>
+					<p>On July 26, as part of a plan to raise money for the dam, Nasser announced the nationalization of the Suez Canal. He realized that the nationalization of the canal would provoke a strong reaction from the West, especially Britain and France that had major shareholdings of the Suez Canal. It developed into a war when France, Britain and Israel invaded Egypt in 1956 and finished with a total withdrawal of all foreign forces from Egypt ending what became known as the Suez Crisis.</p>
+					<p>Nasser was perceived as the hero and winner; this heightened his status as the leader of the Arab world. With his rhetoric and the Suez success, Nasser developed a following throughout the Arab world. Many saw him as the leader of the Arab world, representing a new, defiant era in Arabic politics. Nasser's policies became associated with Pan-Arabism, which urged that the resources of the Arab states should be used for the benefit of the Arab people and not the West.</p>
+					<p>Nasser soon began to have conflicts with other Arab countries, especially Saudi Arabia and Jordan, which opposed his aspirations to lead the Arab world. In 1962 Egypt intervened in Yemen against royalists backed by Saudi Arabia. Expecting an easy victory, Egyptian forces instead got bogged down in a guerilla war. Nasser responded by attempting to subvert Saudi Arabia itself and by attacking supposed Yemeni royalist bases in Saudi Arabia. The attacks against Jordan and Saudi Arabia caused a marked deterioration in US-Egyptian relations and also harmed Nasser’s reputation in the Arab world.</p>
+					<p>In May 1967 Egypt began moving troops to her border with Israel based on false information from the Soviets who have told both Syria and Egypt that Israel was preparing for war. UN sources have denied this news but to no avail. On 16 May Radio Cairo declared: "The existence of Israel has continued too long. We welcome the Israeli aggression we welcome the battle we have long awaited. The peak hour has come. The battle has come in which we shall destroy Israel." On that day, Egypt asked for the withdrawal of the UN Emergency Force from Sinai and the Gaza Strip.</p>
+					<p align="center"><img src="http://battis.net/sandbox/nofim/6daywar/images/gamal-abdul-nasser-image2.png"><br>
+					Nasser, backed by Arab states, kicks Israel into the Gulf of Aqaba. Pre-1967 War cartoon. Al-Jarida newspaper, Lebanon.</p>]]></description>
+				<TimeStamp>
+					<when>1953-06-18T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>30.75210045608326,30.48196153895056,20.82724660833146</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Suez Canal Incident</name>
+				<description><![CDATA[<h1>Suez Canal</h1>
+					<p>The Suez Canal is an artificial waterway in Egypt, connecting the Mediterranean Sea to Gulf of Suez, and then to the Red Sea.</p>
+					<p>The canal is 163 km long, and its width varies, and 60 meters at its narrowest. Along most of the length, there is only one lane for traffic available, though there are a handful of passing bays.</p>
+					<p>The canal is extensively used by modern ships, as it is the fastest crossing from the Atlantic Ocean to the Indian Ocean. Taxes paid by the vessels represent an important source of income for the Egyptian government.</p>
+					<h3>Historical Milestones</h3>
+					<dl>
+					<dt>13th century BCE</dt>
+					<dd>A canal is constructed between the Nile Delta and the Red Sea. For the following centuries, the canal was only partially maintained.<dd>
+					<dt>8th century CE</dt>
+					<dd>The maintenance of the canal is no longer funded by the rulers, and canal soon becomes unnavigable.</dd>
+					<dt>1854</dt>
+					<dd>By a French initiative, the viceroy of Egypt, Said Pasha, decides for a project to build a canal from the Mediterranean Sea to the Red Sea.</dd>
+					<dt>1858</dt>
+					<dd>La Compagnie Universelle du Canal Maritime de Suez is formed to construct the canal. The company, which was owned by both French and Egyptian interests, should both build the canal, and administer it for the following 99 years. After this time, the ownership would pass over to the Egyptian government.</dd>
+					<dt>1859 April 25</dt>
+					<dd>Constructions begin.</dd>
+					<dt>1869 November 17</dt>
+					<dd>With great splendor, the canal is opened for navigation. Dimensions were 22 meter in bottom width, 58 meter in surface width, and a depth of 8 meters.</dd>
+					<dt>1875</dt>
+					<dd>The British government buys the Egyptian stocks.</dd>
+					<dt>1888</dt>
+					<dd>By an international convention, the canal is opened for ships of all nations.</dd>
+					<dt>1936</dt>
+					<dd>Through a treaty the British receives rights to keep military forces in the Canal Zone.</dd>
+					<dt>1948</dt>
+					<dd>Egyptian authorities introduce regulations against vessels calling on Israeli ports to pass through the canal.</dd>
+					<dt>1954</dt>
+					<dd>An agreement between Egypt and Britain that provides for British withdrawal within the following 7 years.</dd>
+					<dt>1956 June</dt>
+					<dd>The last British troops leave the Canal Zone, and the Egyptian military annexes British installations.</dd>
+					<dt>July 26</dt>
+					<dd>Egypt nationalizes the Suez Canal.</dd>
+					<dt>October 31</dt>
+					<dd>France and Britain attack Egypt, under the pretext that they want to open up the canal for vessels of all countries. The Egyptian answer is to sink the 40 ships that are inside the canal at the moment.</dd>
+					<dt>1957 March</dt>
+					<dd>The canal reopens, after the UN has carried through a scheme of removing the sunken ships.</dd>
+					<dt>1962</dt>
+					<dd>Egypt pays off all original shareholders.</dd>
+					<dt>1967 June 5</dt>
+					<dd>In conjunction with the Six-Day War, Egypt closes the canal. The canal would remain closed for years after the end of the war.</dd>
+					<dt>1975 June 5</dt>
+					<dd>The canal reopens. — Vessels carrying non-military goods to and from Israel are allowed to pass through the canal.</dd>
+					<dt>1979</dt>
+					<dd>Unrestricted use for Israel is secured with the peace agreement between the two countries</dd>
+				</dl>
+					<p>© Copyright 1996-2009 LookLex Ltd. All rights reserved By: Tore Kjeilen</p>]]></description>
+				<TimeStamp>
+					<when>1956-10-29T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>32.34151111111111,30.76002222222222,2.695577340910039</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Israel Syria Incident</name>
+				<description>Syria fires on Israel patrol. Israel bombards Syrian diversion project. Four Israelis are killed.</description>
+				<TimeStamp>
+					<when>1965-11-13T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>36.12779166666667,33.06583055555555,863.0000000000001</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>USSR claim</name>
+				<description>USSR claims that they uncovered an Israeli plot to attack Syria. The Zionist plot is false.</description>
+				<TimeStamp>
+					<when>1966-05-25T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>35.13355277777778,31.78699722222222,837.7665358611064</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IAF pre war attack</name>
+				<description>IAF attacks Syrian diversion after Syrian attack on Israel. Israel down a MiG 21</description>
+				<TimeStamp>
+					<when>1966-05-25T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>36.08274752396984,32.96476801777865,290.7368753129904</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tiran strait incident</name>
+				<description><![CDATA[<h1>The Tiran Strait</h1>
+					<p>In the spring of 1967, the Soviet Union fed the Syrian government false information that Israel was planning to invade Syria; Syrian officials informed the Egyptian government. On May 22, Egypt responded by announcing that the Straits of Tiran would be closed to "all ships flying Israeli flags or carrying strategic materials", with effect from May 23.</p>
+					<p>The rights of Egypt regarding the Straits of Tiran had been debated at the General Assembly of the UN A number of states, including Australia, Canada, Denmark, the Netherlands, New Zealand, the United Kingdom and the United States argued that the Straits were international waters, and, as such, all vessels had the right of "free and unhampered passage" through them. Nasser stated, "Under no circumstances can we permit the Israeli flag to pass through the Gulf of Aqaba."</p>
+					<p>Citing international law, Israel considered the closure of the straits to be illegal, and it had stated it would consider such a blockade a casus belli. Egypt stated that the Gulf of Aqaba had always been a national inland waterway subject to the sovereignty of the only three legitimate States on its shores — Jordan, Saudi Arabia, and Egypt — who had the right to bar enemy vessels.</p>
+					<p>The representative of Egypt further stated that "Israel's claim to have a port on the Gulf was considered invalid, as Israel was alleged to have occupied Eilat in violation of Security Council resolutions of 1948 and the Egyptian-Israel General Armistice Agreement."</p>
+					<p>The Arab states disputed Israel's right of passage through the Straits; however, it has long been a part of state practice and customary international law that ships of all states have a right of innocent passage through territorial seas. Furthermore, when Egypt occupied the Saudi islands of Sanafir and Tiran in 1950, it provided assurances to the US that the military occupation would not be used to prevent free passage.</p>
+					<p>In the UN General Assembly debates after the war, the Arab states and their supporters argued that even if international law gave Israel the right of passage, Israel was not entitled to attack Egypt to assert it because the closure was not an "armed attack”. Others disagreed saying that after the earlier 1956 campaign members of the international community pledged that Israel would never again be denied use of the Straits of Tiran. Israel viewed the closure of the straits with some alarm and the U.S. and UK were asked to open the Straits of Tiran, as they guaranteed they would in 1957.</p>]]></description>
+				<TimeStamp>
+					<when>1967-05-23T14:30:00Z</when>
+				</TimeStamp>
+				<styleUrl>#msn_prelude</styleUrl>
+				<Point>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>34.39980277777778,27.95825277777777,29.88675710753663</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder id="fronts">
+			<name>Fronts of the War</name>
+			<open>1</open>
+			<visibility>1</visibility>
+			<description>Check the box next to the front you want to explore</description>
+			<Folder id="jordan">
+				<name>Jordanian Front</name>
+				<Placemark>
+					<name>Aqaba Conquered</name>
+					<TimeStamp>
+						<when>1967-06-06T02:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.3485237410552,32.35207684834008,455.3208632561324</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Counterattack of Jordan Legion in Dotan Valley</name>
+					<description>Counterattack of Jordan Legion 40th brigade in Dotan Valley.</description>
+					<TimeStamp>
+						<when>1967-06-06T06:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.77570635173782,31.28301179057229,266.0242708104882</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gush Etsyon conquered by Israel</name>
+					<address>Gush Etsyon, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-07T18:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.192863,31.64271,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Israel takes &quot;Radar&quot;</name>
+					<address>Giv&apos;at HaRadar, Har Adar, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-05T19:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.12938,31.824729,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IDF destroys Jordan river bridges</name>
+					<TimeStamp>
+						<when>1967-06-08T06:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.61508212623208,32.90274249630291,-205.3411227699514</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IDF conquers Hebron</name>
+					<TimeStamp>
+						<when>1967-06-08T06:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.09986514873756,31.53255477939046,950.8595881545772</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Israel bombs Iraq airbase H-3</name>
+					<TimeStamp>
+						<when>1967-06-05T12:25:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>44.47589884681981,33.23666669163248,35.06874084366721</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Jericho conquered</name>
+					<address>Jericho, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-07T19:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.460568,31.856981,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Nablus (Shechem) conquered</name>
+					<address>Nablus, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-07T11:15:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.260973,32.225039,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Tul Karm conquered</name>
+					<address>Tul Karm, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-07T11:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.026586,32.311926,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Conquest of &quot;ammo hill&quot; in Jerusalem</name>
+					<TimeStamp>
+						<when>1967-06-06T06:15:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.22908933916546,31.7997174751379,787.4243283487126</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Capture of Givat Hamivtar</name>
+					<address>Giv&apos;at HaMivtar, Jerusalem, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-06T11:45:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.23076,31.802723,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Jenin Surrenders</name>
+					<open>1</open>
+					<address>Jenin, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-06T13:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.302537,32.462067,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Jordanian artillery shell of Tel Aviv</name>
+					<address>Tel Aviv, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-05T17:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<coordinates>34.785126,32.059925,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Conquest of Ramallah</name>
+					<address>Ramallah, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-06T19:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.204225,31.899635,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Abu Tor conquered by IDF</name>
+					<address>Abu Tor, Jerusalem, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<TimeStamp>
+						<when>1967-06-06T18:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.232052,31.764107,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Qalqilya conquered by IDF</name>
+					<open>1</open>
+					<address>Qalqilya, Israel</address>
+					<TimeStamp>
+						<when>1967-06-06T17:20:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>34.981515,32.196014,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>End of Dotan battle</name>
+					<TimeStamp>
+						<when>1967-06-06T17:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.83913699903353,32.14730899977416,67.42420770673819</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>North Jerusalem Conquered</name>
+					<address>Jerusalem, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<description>North Jerusalem Conquered</description>
+					<TimeStamp>
+						<when>1967-06-06T08:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.203856,31.768862,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>45th brigade enters Jenin</name>
+					<address>Jenin, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<description>45th brigade enters Jenin</description>
+					<TimeStamp>
+						<when>1967-06-06T05:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<coordinates>35.30253611111111,32.46206666666667,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>UNO HQ is captured by Jordanians</name>
+					<address>Jerusalem, Israel</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<description>Jordanians capture UNO HQ in Jerusalem</description>
+					<TimeStamp>
+						<when>1967-06-05T12:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<coordinates>35.203856,31.768862,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Israeli bombed airfields in Amman</name>
+					<address>Amman, Jordan</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<description>Israeli bombing of airfields in Amman</description>
+					<TimeStamp>
+						<when>1967-06-05T12:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<coordinates>35.932911,31.949381,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Israeli bombing of Mafraq</name>
+					<address>Mafraq, Jordan</address>
+					<Snippet maxLines="2"><![CDATA[<br/>]]></Snippet>
+					<description>Israeli bombing of airfields in Mafraq</description>
+					<TimeStamp>
+						<when>1967-06-05T12:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<coordinates>38.316572,32.4186,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sur Baher conquered by Israel</name>
+					<description>Israel conquers Sur Baher</description>
+					<TimeStamp>
+						<when>1967-06-05T15:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.2325186665099,31.73864767338641,751.0000000000001</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Jordanian Bondardment Jerusalem</name>
+					<description>Jordanian bombardment of Jerusalem &amp; Central Israel.</description>
+					<TimeStamp>
+						<when>1967-06-05T09:45:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sh_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.20385555555556,31.76886111111111,740.0000000000001</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Captures UN governor&apos;s HQ in Jerusalem</name>
+					<description>Jerusalem brigade captures Un governor&apos;s HQ in Jerusalem</description>
+					<TimeStamp>
+						<when>1967-06-05T13:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<coordinates>35.20385598244224,31.76886201741963,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Old city of Jerusalem conquered</name>
+					<TimeStamp>
+						<when>1967-06-07T10:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.23254728528717,31.7774749306833,774.0372255813954</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mar Elias monastery conquered</name>
+					<TimeStamp>
+						<when>1967-06-07T14:25:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.21084000060305,31.73464700074458,799.0840510543899</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>45th Israel armored brigade crosses Ta&apos;anach</name>
+					<description>45th Israel brigade crosses border near Ta&apos;anach</description>
+					<TimeStamp>
+						<when>1967-06-05T15:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.36521257312165,32.37344446301549,363.7052862653496</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>37th brigade captures Talpiot</name>
+					<TimeStamp>
+						<when>1967-06-06T11:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.20417555360946,31.77975268853013,802.6946573500411</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Zababida conquered</name>
+					<TimeStamp>
+						<when>1967-06-06T02:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.32278434404996,32.38598699300041,331.5080557644959</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Israel conquers Pa&apos;amon fortified position</name>
+					<TimeStamp>
+						<when>1967-06-05T15:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.21770069056529,31.78340520232414,817.110474649559</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder id="syria">
+				<name>Syrian Front</name>
+				<Placemark>
+					<name>IDF conquers Tel Azaziat</name>
+					<TimeStamp>
+						<when>1967-06-09T17:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.66898042005776,33.22692586110726,263.8101380025714</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mas&apos;ada falls</name>
+					<TimeStamp>
+						<when>1967-06-10T18:15:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.75661246366158,33.22569750779945,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IDF conquers Tel Hallal</name>
+					<TimeStamp>
+						<when>1967-06-09T12:35:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.66295670570985,33.22333189114707,263.8101380025714</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>8th brig. begins advance on Syrian lines in North Golan</name>
+					<TimeStamp>
+						<when>1967-06-09T11:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>36.02721895846043,33.44664452620348,651.556689629625</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IDF takes Tal Fahr bunkers after bloody battle</name>
+					<description>IDF takes Tal Fahr bunkers after bloody battle</description>
+					<TimeStamp>
+						<when>1967-06-09T18:20:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.69907201405486,33.22892848159997,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Syrian Artillery bombards Rosh Pina</name>
+					<description>Syrian Artillery bombards Rosh Pina</description>
+					<TimeStamp>
+						<when>1967-06-05T18:40:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sh_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.54104634485652,32.96982043716974,313.5316726045065</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Syrian Aircraft attacks Haifa</name>
+					<description>Syrian aircraft attack targets in Haifa</description>
+					<TimeStamp>
+						<when>1967-06-05T12:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sh_assault</styleUrl>
+					<Point>
+						<coordinates>34.98373100188847,32.81188605007313,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IAF Attacks Syrian Air Base</name>
+					<description>IAF aircraft attack Syrian airbases, destroy most of the Syrian air force.</description>
+					<TimeStamp>
+						<when>1967-06-05T13:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sh_assault</styleUrl>
+					<Point>
+						<coordinates>38.97712427246707,34.79242904721949,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Syrian artillery barrage on Israeli border</name>
+					<description>Syrian artillery barrage on Israeli border communities and attempt to advance to Tel Dan, Dan and Ashmora.</description>
+					<TimeStamp>
+						<when>1967-06-06T05:47:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>36.03453156273562,33.07029531033803,939.9766858405105</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Syrian Artillery Bombards border with Golan</name>
+					<description>Syrian artillery bombardments continue all along the northern border with Golan.</description>
+					<TimeSpan>
+						<begin>1967-06-07</begin>
+						<end>1967-06-08</end>
+					</TimeSpan>
+					<styleUrl>#sn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.68889641948681,32.99384943592682,639</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IAF attacks Syrian defenses</name>
+					<description><![CDATA[<h1>Israel and Syria</h1>
+						<img src="http://battis.net/sandbox/nofim/6daywar/images/israel-and-syria-image1.png" align="right">
+						<p>In 1964, Israel began withdrawing water from the Jordan River for its National Water Carrier. The following year, the Arab states began construction of the Headwater Diversion Plan, which, once completed, would divert the waters of the Banias Stream before the water entered Israel and the Sea of Galilee, to flow instead into a dam at Mukhaiba for use by Jordan and Syria, and divert the waters of the Hasbani into the Litani River, in Lebanon. The diversion works would have reduced the installed capacity of Israel's carrier by about 35% and Israel's overall water supply by about 11%. The Israel Defense Forces (IDF) attacked the diversion works in Syria in March, May, and August 1965, perpetuating a prolonged chain of border violence that linked directly to the events leading to war.</p>
+						<p>In addition to sponsoring attacks against Israel (often through Jordanian territory, much to King Hussein's chagrin), Syria also began shelling Israeli civilian communities in north-eastern Galilee from positions on the Golan Heights, as part of the dispute over control of the Demilitarized Zones (DMZs), small parcels of land claimed by both Israel and Syria. Concerning attacks on Israel's territory, Syria maintained that it could not be held responsible for the activities of El-Fateh and El-Asefa, nor for the rise of Palestinian organizations whose stated goal was to liberate their conquered and occupied territory.</p>
+						<p>On April 7, 1967, a minor border incident escalated into a full-scale aerial battle over the Golan Heights, resulting in the loss of six Syrian MiG-21s to Israeli Air Force (IAF) Mirage III, and the latter's flight over Damascus. Tanks, heavy mortars, and artillery were used in various sections along the 47 mile (76 km) border in what was described as "a dispute over cultivation rights in the demilitarized zone south-east of Lake Tiberias."</p>
+						<p><img src="http://battis.net/sandbox/nofim/6daywar/images/israel-and-syria-image2.png" align="right">On 11 May Prime Minister of Israel Levi Eshkol warned that Israel would not hesitate to use air power in response to continued border terrorism and on the same day Israeli envoy Gideon Rafael presented a letter to the president of the Security Council warning that Israel would "act in self-defense as circumstances warrant".</p>
+						<p>Border incidents multiplied and numerous Arab leaders, both political and military, called for an end to Israeli reprisals. Egypt, then already trying to seize a central position in the Arab world under Nasser, accompanied these declarations with plans to re-militarize the Sinai. Syria shared these views, although it didn't prepare for an immediate invasion. The Soviet Union actively backed the military needs of the Arab states. It was later revealed that on 13 May a Soviet intelligence report given by Soviet President Nikolai Podgorny to Egyptian Vice President Anwar Sadat claimed falsely that Israeli troops were massing along the Syrian border.</p>
+						<p>In May 1967, Hafez al-Assad, then Syria's Defense Minister declared: "Our forces are now entirely ready not only to repulse the aggression, but to initiate the act of liberation itself, and to explode the Zionist presence in the Arab homeland. The Syrian Army, with its finger on the trigger, is united... I, as a military man, believe that the time has come to enter into a battle of annihilation."</p>]]></description>
+					<TimeSpan>
+						<begin>1967-06-08T00:00:59Z</begin>
+						<end>1967-06-09</end>
+					</TimeSpan>
+					<styleUrl>#sn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>38.62109048700958,34.75369020949132,481.1777921521952</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Dayan Orders attack on Golan Heights</name>
+					<description>After intercepted message from Nasser indicates Arab forces are near collapse, Dayan reverses his stand and the decision of the cabinet, and orders attack on the Golan Heights. Initially a limited plan called &quot;Hammer.&quot;</description>
+					<TimeStamp>
+						<when>1967-06-09T07:20:00Z</when>
+					</TimeStamp>
+					<styleUrl>#sn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>35.73550401165632,32.98854895529929,465.5643419825472</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IDF takes Zaura-Kala compound</name>
+					<TimeStamp>
+						<when>1967-06-09T18:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.86600284766979,33.24887097247871,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IDF takes Rouya</name>
+					<description>IDF takes Rouya</description>
+					<TimeStamp>
+						<when>1967-06-09T20:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<coordinates>35.70271079866069,33.23822549336406,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder id="egypt">
+				<name>Egyptian Front</name>
+				<Placemark>
+					<name>Yoffe advance armor reachs Suez Canal</name>
+					<TimeStamp>
+						<when>1967-06-09T01:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>32.35455723095397,30.76915641187088,6.185061671480821</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3 division Egypt armored brigade attacks (Egyptian Campaign)</name>
+					<TimeStamp>
+						<when>1967-06-08T03:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>33.13919444444444,30.40875555555555,322.0000000000001</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Nasser Speech</name>
+					<description>Blames US for Loss.
+						
+						&quot;The Sixth Fleet runs of Arab Petroleum&quot;</description>
+					<TimeStamp>
+						<when>1967-06-09T03:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_foreignrelations</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>30.14548635584402,30.46897388263945,40.30697661137788</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>USS Liberty</name>
+					<description>Israeli pilots accidently fired upon USS Liberty.</description>
+					<TimeStamp>
+						<when>1967-01-08T03:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_foreignrelations</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>33.56941944444445,31.55415,-971</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Southern Command assault on Gaza</name>
+					<description>Comm. Yehushua Gavish crosses southern Gaza</description>
+					<TimeStamp>
+						<when>1967-06-05T20:15:11Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.3884,31.32487222222222,46.00000000000001</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IDF Navy</name>
+					<description>Israel Navy at Sharm el Sheikh</description>
+					<TimeStamp>
+						<when>1967-06-07T00:14:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.28216111111111,27.85732500000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IAF assault</name>
+					<description>Israel Air Force attacks and destroy Ciaro International Airport after finding out that they were hiding military wing of Egyptian Air</description>
+					<TimeStamp>
+						<when>1967-06-05T16:00:11Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>31.40243333333333,30.11813055555556,103</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Operation Focus (Egyptian Campaign)</name>
+					<description><![CDATA[<h1>Operation Focus</h1>
+						<p>Operation Focus (Hebrew: דקומ עצבמ, Mivtza Moked) was the opening pre- emptive airstrike by Israel at the start of the Six-Day War of 1967. It is sometimes referred to as "Sinai Air Strike" since the focus was primarily on airfields around the Sinai Peninsula. At 07:45 on June 5, 1967, the Israeli Air Force (IAF) under Maj. Gen. Mordechai Hod launched a massive airstrike that destroyed the majority of the Egyptian air force on the ground. By noon, the Egyptian, Jordanian and Syrian Air Forces, with about 450 aircraft, were destroyed. This pre-emptive strike was code-named Operation Focus, Mivtz a Moked. It was also very successful in destroying most of the 18 airfields in Egypt.</p>
+						<h3>Summary</h3>
+						<p>In three main waves of aerial attacks, and several smaller waves, in the days following the operation, a total of 452 aircraft were destroyed, most of them on the ground. This left the IAF in almost complete control of the skies, and able to effectively assist the Israeli Defense Forces (IDF) ground units.</p>
+						<p>The operational success was achieved by concentrating on the initial destruction of the runways with a new rocket assisted bomb that would come to be known as the Durandal anti-runway warhead. As designed, after release of the bomb, a parachute is deployed to point the warhead directly toward the runway being attacked; at a set altitude, the rocket ignites and drives the warhead through the pavement of the runway before it detonates. The explosion creates a small crater over a large new sinkhole, meaning the damaged runway must be removed before the hole can be filled. Once the runways were disabled, entire air bases' complements of aircraft were effectively grounded and fell victim to subsequent attack waves, resulting in near-total Israeli air supremacy.</p>]]></description>
+					<TimeStamp>
+						<when>1967-06-05T07:43:01Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_assault</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.14222222222222,30.68118611111112,316</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gaza Strip Conquest (Egyptian Campaign)</name>
+					<description><![CDATA[<h1>The Gaza Strip</h1>
+						<p>The Gaza Strip is a coastal strip of land along the Mediterranean Sea. It borders Egypt on the south-west and Israel on the north and east. It is about 41 kilometers (25 mi) long, and between 6 and 12 kilometers (4–7.5 mi) wide, with a total area of 360 square kilometers (139 sq mi). The area is not recognized internationally as part of any sovereign country.</p>
+						<p>Egypt governed the Gaza Strip from 1948-67, and today rules the southern border between the Gaza strip and the Sinai desert. Israel governed the Gaza Strip from 1967-2005.</p>
+						<p>The territory takes its name from Gaza, its main city. Most of its citizens are either refugees or descended from refugees of the Palestinian exodus.</p>
+						<p>The first mention of the city of Gaza was in the 15th century BC. In the Torah and the Old Testament, after Samson was delivered into bondage by Delilah he died while toppling the Temple of the god Dagon there In the 13th century BC the area was taken over by the Philistines, whose coastal power base of Philistia approximated much of the modern Strip. The Gaza area changed hands many times over the next 2,000 years. It fell, successively, to the Israelite King David (in 1000 BC), to the Assyrians (in 732 BC), Egyptians, Babylonians (in 586 BC), Persians (in 525 BC), and Greeks. Alexander the Great met stiff resistance there (in 332 BC). After conquering it, he sold its inhabitants into slavery.[5][6]</p>
+						<p>In 1517 Gaza fell to the Ottoman Empire who ruled it from 1517-1799. Napoleon captured Gaza City in 1799. Starting in the early 1800s, Gaza was culturally dominated by neighboring Egypt. Muhammad Ali made Gaza a part of Egypt in 1832 Though Gaza was recaptured by the Ottoman Empire, a large number of its residents were Egyptians (and their descendants) who had fled political turmoil.</p>
+						<p>The region served as a battlefield during the First World War (1914-18), with the British and Ottomans fighting in the Sinai and Palestine. Gaza, which controlled the coastal route, was taken by the British in the Third Battle of Gaza on 7 November, 1917.</p>
+						<p>Following World War I, Gaza became part of the British Mandate of Palestine under the authority of the League of Nations, which required Britain to implement the Balfour Declaration establishing in Palestine a "national home for the Jewish people, it being The Gaza Strip clearly understood that nothing should be done which might prejudice the civil and religious rights of existing non-Jewish communities in Palestine."</p>
+						<p>Jews were present in Gaza from antiquity until the 1929 Palestine riots, when Arabs forced the Jews to leave Gaza. After that the British prohibited Jews from living in the area, though some Jews returned and, in 1946, re-established kibbutz Kfar Darom in central Gaza which had been destroyed in the 1936-39 Arab revolt in Palestine.</p>
+						<p>British rule of Palestine ended with the expiration of the British Mandate and the Israeli Declaration of Independence on May 14, 1948.</p>
+						<p>The Gaza Strip as it is known today was the product of the subsequent 1949 Armistice Agreements between Egypt and Israel, often referred to as the Green Line. Egypt then occupied the Strip from 1949 (except for four months of Israeli occupation during the 1956 Suez Crisis) until 1967. The Strip's population was greatly augmented by an influx of Palestinian Arab refugees who fled from Israel during the fighting.</p>
+						<p>Egypt never annexed the Gaza Strip, but instead treated it as a controlled territory and administered it through a military governor.[12] Arab refugees from the 1948 Arab– Israeli War were never offered Egyptian citizenship.</p>
+						<p>During the Sinai campaign of November 1956, the Gaza Strip and the Sinai Peninsula were occupied by Israeli troops. International pressure led Israel to withdraw.</p>
+						<p>Israel controlled the Gaza Strip again beginning in June 1967, after the Six-Day War.</p>]]></description>
+					<TimeStamp>
+						<when>1967-06-06T13:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.45337492900707,31.52367668123561,11.58790039799901</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bir Gafgafa (Egyptian Campaign)</name>
+					<description>The Israeli army under General Sharon advanced to take key positions in the Egyptain occupied Sinai</description>
+					<TimeStamp>
+						<when>1967-06-07T14:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>33.15765833333333,30.402825,361</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Um-Katef conquest (Egyptian Campaign)</name>
+					<description>Israel captures Um-Katef in the six day war</description>
+					<TimeStamp>
+						<when>1967-06-06T06:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.25585848876285,30.8383681517438,284</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ras el Naqeb (Egyptian Campaign)</name>
+					<description>The Israeli took the position on June 6th 4PM, Egyptian Campaign</description>
+					<TimeStamp>
+						<when>1967-06-06T16:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.83755833333333,29.51341944444444,742.0000000000001</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Jebel Libni</name>
+					<description>Israel took control of the area during the six day war</description>
+					<TimeStamp>
+						<when>1967-06-06T18:30:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.09694722222223,29.73328333333333,562.1296805556043</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bir al hasna (Egyptian Campaign)</name>
+					<description>Israeli take control of a key position in the Sinai peninsula under control of IDF Commander General Sharon</description>
+					<TimeStamp>
+						<when>1967-06-07T04:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>33.78269722222222,30.46903888888889,250.4645463141828</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Abu Ageila conquest (Egyptian Camapign)</name>
+					<description>Israel captured Abu Agelia during the six day war</description>
+					<TimeStamp>
+						<when>1967-06-06T06:00:00Z</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>34.11773108094261,30.84313506972217,125</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bi&apos;r Lahfan (Egyptian Campaign)</name>
+					<description>The Israeli army captured the city of Bi&apos;r Lahfan during the Six Day War</description>
+					<TimeStamp>
+						<when>1967-06-06</when>
+					</TimeStamp>
+					<styleUrl>#msn_conquer</styleUrl>
+					<Point>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>33.86202222222222,31.00664166666666,51.00000000000001</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder id="days">
+			<name>Days of the War</name>
+			<open>1</open>
+			<visibility>1</visibility>
+			<description>Double-click each day to see what happened.</description>
+			<gx:Tour id="prewar-tour">
+				<name>Prewar</name>
+				<visibility>1</visibility>
+				<gx:Playlist>
+					<gx:FlyTo>
+						<gx:duration>1</gx:duration>
+						<LookAt>
+							<!-- Israel 0:00:00 -->
+							<gx:TimeSpan>
+								<begin>1948-01-01</begin>
+								<end>1967-06-04T23:59:59Z</end>
+							</gx:TimeSpan>
+							<longitude>37.31069116206416</longitude>
+							<latitude>31.26037631648837</latitude>
+							<altitude>0</altitude>
+							<heading>-7.468764692683683e-07</heading>
+							<tilt>0</tilt>
+							<range>1514936.330006588</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+				</gx:Playlist>
+			</gx:Tour>
+			<gx:Tour id="day1-tour">
+				<name>Day 1</name>
+				<visibility>1</visibility>
+				<gx:Playlist>
+					<gx:FlyTo>
+						<gx:duration>1</gx:duration>
+						<LookAt>
+							<!-- Israel 0:00:00 -->
+							<gx:TimeSpan>
+								<begin>1967-06-05T00:00:01Z</begin>
+								<end>1967-06-05T23:59:59Z</end>
+							</gx:TimeSpan>
+							<longitude>37.31069116206416</longitude>
+							<latitude>31.26037631648837</latitude>
+							<altitude>0</altitude>
+							<heading>-7.468764692683683e-07</heading>
+							<tilt>0</tilt>
+							<range>1514936.330006588</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+				</gx:Playlist>
+			</gx:Tour>
+			<gx:Tour id="day2-tour">
+				<name>Day 2</name>
+				<visibility>1</visibility>
+				<gx:Playlist>
+					<gx:FlyTo>
+						<gx:duration>1</gx:duration>
+						<LookAt>
+							<!-- Israel 0:00:00 -->
+							<gx:TimeSpan>
+								<begin>1967-06-06T00:00:01Z</begin>
+								<end>1967-06-06T23:59:59Z</end>
+							</gx:TimeSpan>
+							<longitude>37.31069116206416</longitude>
+							<latitude>31.26037631648837</latitude>
+							<altitude>0</altitude>
+							<heading>-7.468764692683683e-07</heading>
+							<tilt>0</tilt>
+							<range>1514936.330006588</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+				</gx:Playlist>
+			</gx:Tour>
+			<gx:Tour id="day3-tour">
+				<name>Day 3</name>
+				<visibility>1</visibility>
+				<gx:Playlist>
+					<gx:FlyTo>
+						<gx:duration>1</gx:duration>
+						<LookAt>
+							<!-- Israel 0:00:00 -->
+							<gx:TimeSpan>
+								<begin>1967-06-07T00:00:01Z</begin>
+								<end>1967-06-07T23:59:59Z</end>
+							</gx:TimeSpan>
+							<longitude>37.31069116206416</longitude>
+							<latitude>31.26037631648837</latitude>
+							<altitude>0</altitude>
+							<heading>-7.468764692683683e-07</heading>
+							<tilt>0</tilt>
+							<range>1514936.330006588</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+				</gx:Playlist>
+			</gx:Tour>
+			<gx:Tour id="day4-tour">
+				<name>Day 4</name>
+				<visibility>1</visibility>
+				<gx:Playlist>
+					<gx:FlyTo>
+						<gx:duration>1</gx:duration>
+						<LookAt>
+							<!-- Israel 0:00:00 -->
+							<gx:TimeSpan>
+								<begin>1967-06-08T00:00:01Z</begin>
+								<end>1967-06-08T23:59:59Z</end>
+							</gx:TimeSpan>
+							<longitude>37.31069116206416</longitude>
+							<latitude>31.26037631648837</latitude>
+							<altitude>0</altitude>
+							<heading>-7.468764692683683e-07</heading>
+							<tilt>0</tilt>
+							<range>1514936.330006588</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+				</gx:Playlist>
+			</gx:Tour>
+			<gx:Tour id="day5-tour">
+				<name>Day 5</name>
+				<visibility>1</visibility>
+				<gx:Playlist>
+					<gx:FlyTo>
+						<gx:duration>1</gx:duration>
+						<LookAt>
+							<!-- Israel 0:00:00 -->
+							<gx:TimeSpan>
+								<begin>1967-06-09T00:00:01Z</begin>
+								<end>1967-06-09T23:59:59Z</end>
+							</gx:TimeSpan>
+							<longitude>37.31069116206416</longitude>
+							<latitude>31.26037631648837</latitude>
+							<altitude>0</altitude>
+							<heading>-7.468764692683683e-07</heading>
+							<tilt>0</tilt>
+							<range>1514936.330006588</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+				</gx:Playlist>
+			</gx:Tour>
+			<gx:Tour id="day6-tour">
+				<name>Day 6</name>
+				<visibility>1</visibility>
+				<gx:Playlist>
+					<gx:FlyTo>
+						<gx:duration>1</gx:duration>
+						<LookAt>
+							<!-- Israel 0:00:00 -->
+							<gx:TimeSpan>
+								<begin>1967-06-10T00:00:01Z</begin>
+								<end>1967-06-12</end>
+							</gx:TimeSpan>
+							<longitude>37.31069116206416</longitude>
+							<latitude>31.26037631648837</latitude>
+							<altitude>0</altitude>
+							<heading>-7.468764692683683e-07</heading>
+							<tilt>0</tilt>
+							<range>1514936.330006588</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+				</gx:Playlist>
+			</gx:Tour>
+		</Folder>
+		<Folder id="further-resources">
+			<name>Further Resources</name>
+			<open>1</open>
+			<visible>1</visible>
+			<Placemark>
+				<name>SixDayWar.org</name>
+				<description><![CDATA[<a href="http://www.sixdaywar.org/">Click here to visit</a>]]></description>
+			</Placemark>
+			<Folder>
+				<name>Nofim: Why Do Paratroopers Cry?</name>
+				<open>1</open>
+				<visible>1</visible>
+				<Placemark>
+					<name>Slides</name>
+					<description>
+						<a href="http://faculty.milkenschool.org/nofim/Paratroopers.htm">Click here to view</a>
+					</description>
+				</Placemark>
+				<Placemark>
+					<name>Texts and Resources</name>
+					<description>
+						<a href="http://faculty.milkenschool.org/nofim/Paratroopers_files/Links%20%26%20Resources/">Click here to explore</a>
+					</description>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Placemark id="credits">
+			<name>Credits</name>
+			<description><![CDATA[<p style="font-style: italic">Designed, researched and produced by the Interactive Design I & II classes, 2010-2011.</p>
+				<p>Prewar: Kevin Rudolph '11</p>
+				<p>Egypt: Kevin Rudolph '11</p>
+				<p>Jordan: Alex Mosch '14</p>
+				<p>Syria: Aaron Mashian '14</p>
+				<p>Icons: Gabe Freeman '13</p>
+				<p>Maps: Aaron Mashian '14</p>
+				<p>Script: Gabe Freeman '13, Alex Mosch '14, and Kevin Rudolph '11</p>
+				<p>Voiceover: Kevin Rudolph '11</p>
+				<p>Visuals: Aaron Mashian '14</p>
+				<p>Curriculum Design: Nofim Program</p>
+				<p>Project Supervision: Seth Battis</p>]]></description>
+		</Placemark>
+		<Folder id="data">
+			<Folder id="maps">
+				<name>Maps</name>
+				<open>0</open>
+				<visibility>1</visibility>
+				<!-- <Style>
+				     <ListStyle>
+				     <listItemType>radioFolder</listItemType>
+				     <bgColor>00ffffff</bgColor>
+				     <maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+				</Style> -->
+				<Folder id="prewar_map">
+					<name>Pre War</name>
+					<!-- <LookAt>
+					     <gx:TimeSpan>
+					     <begin>1948-01-31T23:59:59Z</begin>
+					     <end>1967-06-05</end>
+					</gx:TimeSpan>
+					     <longitude>37.31069116206416</longitude>
+					     <latitude>31.26037631648837</latitude>
+					     <altitude>0</altitude>
+					     <heading>-7.468764692683683e-07</heading>
+					     <tilt>0</tilt>
+					     <range>1514936.330006588</range>
+					     <altitudeMode>relativeToGround</altitudeMode>
+					     <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					     <Style>
+					     <ListStyle>
+					     <listItemType>checkHideChildren</listItemType>
+					     <bgColor>00ffffff</bgColor>
+					     <maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+					</Style> -->
+					<Placemark>
+						<name>Israel's Borders - Pre-1967</name>
+						<TimeSpan>
+							<begin>1948-01-31T23:59:59Z</begin>
+							<end>1967-06-05</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Point>
+							<coordinates>34.85868447819848,31.1737093623432,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Pre War</name>
+						<TimeSpan>
+							<begin>1948-01-31T23:59:59Z</begin>
+							<end>1967-06-05</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										34.94771597244574,32.82405964268847,0 34.94296902430377,32.78194671581744,0 34.9470851395925,32.75568273113176,0 34.95752820699168,32.74200732189688,0 34.94602265091638,32.73190805445886,0 34.93396639423327,32.7145117138049,0 34.92786056291619,32.69581568278255,0 34.91438298459519,32.62362326144165,0 34.92085763849665,32.60140350628659,0 34.91874846261896,32.56475919848738,0 34.90905155397429,32.53725063840234,0 34.90215580341584,32.52490653552402,0 34.89678608764041,32.51601163351916,0 34.89201933918686,32.49095116450975,0 34.89167694569952,32.47817869216313,0 34.88385408817617,32.45461958971037,0 34.8865171779743,32.42720007060902,0 34.87281772852793,32.40317413344471,0 34.86281155225839,32.39016287591716,0 34.84964649799293,32.33892905849233,0 34.8541408705446,32.32767135018302,0 34.84626946043667,32.32423735719426,0 34.82560542429698,32.28627954004739,0 34.81676035844642,32.2547298792441,0 34.81512691063121,32.2183950222189,0 34.7973376682284,32.17082339605933,0 34.78328137226868,32.14478418910011,0 34.78361374880031,32.13296811795738,0 34.77168081692157,32.12240962593815,0 34.76528598769924,32.09200596096574,0 34.7505701599151,32.07059745745181,0 34.73960917780482,32.03718596465564,0 34.7376924425903,32.02299971824551,0 34.71706288307843,31.97457841019794,0 34.6528580292137,31.85448550693811,0 34.63978886375067,31.82186104363606,0 34.61951060027326,31.79282818711127,0 34.61360635797825,31.77303965307225,0 34.58422431416957,31.73686049453671,0 34.5766115911162,31.72535868053039,0 34.57077870481133,31.70926101647596,0 34.50537781297322,31.62225486501358,0 34.50953817342476,31.60411952643383,0 34.54967645445865,31.56912273517622,0 34.55879103897382,31.54839229383458,0 34.53630439351598,31.53073793564072,0 34.54994883022889,31.54062982967062,0 34.50198919775691,31.50543557131335,0 34.47201937627324,31.47697074312365,0 34.43433945007687,31.44790961733735,0 34.38050819891446,31.39079503193392,0 34.37765347991485,31.36170041510862,0 34.38143796836831,31.32599377098451,0 34.34667780900222,31.29064443717971,0 34.30406625641249,31.26179460045654,0 34.28498620506835,31.24470139811354,0 34.28139957824891,31.21879222922652,0 34.36115719235424,31.0025763176107,0 34.38024256818443,30.94356927335845,0 34.40018586497789,30.90212671572387,0 34.41347269387857,30.86511312149193,0 34.47228830658648,30.74124983133397,0 34.48985038786325,30.70691030735831,0 34.49460388191571,30.65278517335592,0 34.51608247532034,30.64730226728831,0 34.52191812048279,30.61099971738691,0 34.53002014046373,30.56074515038684,0 34.5530260282335,30.5109872224806,0 34.55276291523085,30.41867704893917,0 34.61969881884285,30.38242894233395,0 34.62837627851064,30.34190118429724,0 34.65580799122181,30.29831975542344,0 34.70598107973739,30.15044226158717,0 34.73527371937724,30.09517060642999,0 34.76006621189095,30.0208924053414,0 34.76268251638107,29.98199189204282,0 34.81030368821271,29.87417822963024,0 34.82942160167784,29.83341911404972,0 34.8665036786318,29.72591180117559,0 34.87926099608423,29.64439179005243,0 34.884306769727,29.61972258640676,0 34.87079198560996,29.60464264834885,0 34.88166330154522,29.57448128936475,0 34.89398077807521,29.55616860274919,0 34.9161216493995,29.52155446367793,0 34.94206552037598,29.52914047999534,0 34.98030251141702,29.56806006623236,0 34.99645567737732,29.57354011625706,0 34.99639494789933,29.59189785499606,0 35.09166850849959,29.89410047680289,0 35.09146901362561,29.95959828337745,0 35.11376668421511,30.00171209667009,0 35.12502549972768,30.05489279214715,0 35.1352529544574,30.08375538099684,0 35.17868004907456,30.15122591768608,0 35.18578213173221,30.18534456612798,0 35.17259753857137,30.21847480083035,0 35.1627102047614,30.24892999849603,0 35.171212594599,30.31381567822265,0 35.17593897312602,30.33197215650787,0 35.18873406100725,30.35534192404898,0 35.19693031570294,30.37166064343647,0 35.19583596199036,30.38929659062167,0 35.19264149987398,30.40611897512206,0 35.18935526222236,30.41504255815191,0 35.18396397660983,30.43697845897047,0 35.17967882582204,30.46600212840382,0 35.18969084444081,30.49282333223971,0 35.21160945329695,30.55618693315664,0 35.21782676560316,30.59591259904256,0 35.23074239621157,30.62530713580593,0 35.24243380156907,30.64505037854356,0 35.2685092711101,30.69870319412701,0 35.29549234953921,30.72991508377408,0 35.30549698227293,30.76416091213147,0 35.31207629970881,30.79560039069717,0 35.34824281729599,30.83902289399315,0 35.34502947636594,30.88640237518608,0 35.37243364663779,30.93372463716592,0 35.40846469586358,30.96527559429869,0 35.41798921690506,30.9806258373237,0 35.41621292273555,31.02659249089027,0 35.42566643946554,31.05429321051203,0 35.43848857577267,31.07323648210451,0 35.44081980647304,31.07623713439913,0 35.44083318282715,31.07723051155584,0 35.4610074455694,31.12132940196987,0 35.42410208101074,31.11696734672937,0 35.40909038952686,31.12372064557544,0 35.40103855216297,31.13358538648577,0 35.39773393942877,31.1546447423701,0 35.38391352867052,31.17756354754739,0 35.37485227134107,31.20895021004097,0 35.37397067336484,31.23977437726099,0 35.40868824222576,31.24155886324363,0 35.4124921845687,31.2830223409231,0 35.42117220311196,31.34640945427808,0 35.40461913129447,31.41824239166484,0 35.3991246033174,31.44214466809168,0 35.40861688441188,31.46132900946866,0 35.4062037444676,31.50501608955729,0 35.3567134641842,31.49429645716185,0 35.22405414547944,31.3961981828662,0 35.06648470458988,31.3865134280453,0 34.97130669125556,31.37769291769774,0 34.93487142040622,31.37348657681638,0 34.90129001534035,31.40849255775491,0 34.96596617415201,31.5202590424021,0 34.97150292915083,31.60931921157637,0 35.02219167393291,31.65880479121302,0 35.07833403252211,31.68427156903165,0 35.11271901652739,31.70768694258108,0 35.15786574586316,31.74757016830115,0 35.16574521120558,31.74568612500399,0 35.22532648796923,31.74808427188019,0 35.24442911455928,31.8011818540607,0 35.20794048105355,31.82104309474809,0 35.10125691059252,31.84963280652862,0 35.07578265310501,31.85879486146139,0 35.06802262900042,31.86249624794196,0 35.03876673738165,31.83751812696765,0 35.00979189603127,31.84092722950878,0 34.98411202910902,31.84817324920854,0 34.98187965788037,31.85099030071884,0 34.99760632646463,31.86639383738173,0 35.04030854165658,31.8850120266276,0 35.03932366459614,31.90029719768722,0 35.01029674674504,31.93460036115241,0 35.01421852805012,32.01845769379653,0 35.02573799461216,32.03234917696285,0 35.00557200981164,32.11180323902441,0 34.990778908482,32.17238040002555,0 34.98620799300904,32.20400115000089,0 35.00971047411605,32.22062457571322,0 35.03811949918411,32.25179438489868,0 35.03717281493664,32.27772272998911,0 35.02314931281909,32.29638097091347,0 35.0317867597146,32.34052070537196,0 35.05473016115913,32.35673474631785,0 35.06959665566768,32.42015895333255,0 35.09286012276699,32.47271016304764,0 35.15674389341562,32.5034333398747,0 35.21329066359554,32.54523501998884,0 35.25862026113901,32.51677445925066,0 35.34385007764596,32.51748401812907,0 35.38819750737176,32.50787804913946,0 35.40290894153781,32.49335584262862,0 35.40684682166301,32.42829250577671,0 35.49396458964912,32.40570737006145,0 35.52627481234121,32.39980697287614,0 35.54792202891895,32.40838387555775,0 35.55733775161586,32.45004042408055,0 35.55677374214928,32.50956561588338,0 35.55496182289947,32.54416437399414,0 35.57429340742362,32.56279123806765,0 35.56535725255622,32.61048490349364,0 35.5502353732929,32.63800580564714,0 35.55125755749546,32.64183236192689,0 35.5770643084768,32.64258616269262,0 35.5985289379994,32.66989058121888,0 35.58645576402965,32.67820608853445,0 35.57789402079135,32.72184399313658,0 35.5612978308022,32.72874435445939,0 35.55668419881707,32.74785384149001,0 35.54107228119917,32.77606122998711,0 35.53629269195396,32.79103356660686,0 35.52896478713724,32.8010595648382,0 35.52675811527227,32.80981911716375,0 35.50723577052234,32.8245458676879,0 35.51199025596597,32.84373490623058,0 35.52165000908837,32.8606836254551,0 35.56303275155823,32.87743177055299,0 35.57810997511708,32.88814859568453,0 35.59298150140422,32.88965317476784,0 35.61183528618618,32.86842137519032,0 35.61924476844919,32.86916386521466,0 35.63936479782625,32.97005089989852,0 35.63169867199841,33.01459514175188,0 35.6374947059941,33.03550091102636,0 35.63333830549123,33.06551526718689,0 35.63950549011157,33.08587931678881,0 35.64438161619029,33.12120269878388,0 35.6473446808906,33.138334236441,0 35.65191543447867,33.15831340787651,0 35.6544621892198,33.17314433181105,0 35.65444783025648,33.23282140981078,0 35.65208508138866,33.23942469250933,0 35.65721992027562,33.24879278693624,0 35.64543970773069,33.25744992500157,0 35.60295039421513,33.26229013477649,0 35.57911114987817,33.2751223204113,0 35.55439767266351,33.29380940091147,0 35.5355738672766,33.29067266291258,0 35.53470030601188,33.27826685918553,0 35.52136402402355,33.2551990399083,0 35.51584762263261,33.22472010123833,0 35.50885062001329,33.18697227537151,0 35.50368515251807,33.16039103432977,0 35.50203782554988,33.13354749756122,0 35.47526846891655,33.10624753760408,0 35.44543901840708,33.10377047027077,0 35.41581973232737,33.08595919200023,0 35.41340566591278,33.07895262051616,0 35.3460211484698,33.0720513592761,0 35.33012211148812,33.08250025854213,0 35.32260701680858,33.08663625780581,0 35.32228461371816,33.10137712115166,0 35.31381211089616,33.10842278488598,0 35.30207420979787,33.11193795751552,0 35.28532298818636,33.11473991394798,0 35.26457443492554,33.11044070100402,0 35.23544375849974,33.1054221891355,0 35.20953903202438,33.10797927218503,0 35.19790304645544,33.10713845936934,0 35.19298372935681,33.10143459014872,0 35.16800224078875,33.10477985357302,0 35.15719386358485,33.10403481804102,0 35.14216617918828,33.10150593113385,0 35.12300170171555,33.09989218467648,0 35.10881170190078,33.09975069518762,0 35.10502012276837,33.08482316967749,0 35.10093925879755,33.05028185872536,0 35.08984680196463,33.03200551679261,0 35.08364987659222,33.01734455632715,0 35.0849560393691,33.00074362549869,0 35.07520623771278,32.96969448089287,0 35.07423731678266,32.94784610875296,0 35.06657671802274,32.9321452954194,0 35.06783759872743,32.91796444568333,0 35.07851256142493,32.91404258385374,0 35.0813581059185,32.89995035269347,0 35.07253499421655,32.89716462906559,0 35.06447349854381,32.87100944439997,0 35.04832143120672,32.84825085952576,0 35.02096335974051,32.82947987891215,0 35.00354878966301,32.8424211481943,0 34.99291982736808,32.84692337035011,0 34.97848744684921,32.84608301221163,0 34.96814292032249,32.8432952713551,0 34.94771597244574,32.82405964268847,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder id="day1_map">
+					<name>Day 1</name>
+					<!-- <LookAt>
+					     <gx:TimeSpan>
+					     <begin>1967-06-05T00:00:59Z</begin>
+					     <end>1967-06-06</end>
+					</gx:TimeSpan>
+					     <longitude>37.31069116206416</longitude>
+					     <latitude>31.26037631648837</latitude>
+					     <altitude>0</altitude>
+					     <heading>-7.468764692683683e-07</heading>
+					     <tilt>0</tilt>
+					     <range>1514936.330006588</range>
+					     <altitudeMode>relativeToGround</altitudeMode>
+					     <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					     <Style>
+					     <ListStyle>
+					     <listItemType>checkHideChildren</listItemType>
+					     <bgColor>00ffffff</bgColor>
+					     <maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+					</Style> -->
+					<Placemark>
+						<name>Day 1</name>
+						<TimeSpan>
+							<begin>1967-06-05T00:00:59Z</begin>
+							<end>1967-06-06</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										34.94771597244574,32.82405964268847,0 34.94296902430377,32.78194671581744,0 34.9470851395925,32.75568273113176,0 34.95752820699168,32.74200732189688,0 34.94602265091638,32.73190805445886,0 34.93396639423327,32.7145117138049,0 34.92786056291619,32.69581568278255,0 34.91438298459519,32.62362326144165,0 34.92085763849665,32.60140350628659,0 34.91874846261896,32.56475919848738,0 34.90905155397429,32.53725063840234,0 34.90215580341584,32.52490653552402,0 34.89678608764041,32.51601163351916,0 34.89201933918686,32.49095116450975,0 34.89167694569952,32.47817869216313,0 34.88385408817617,32.45461958971037,0 34.8865171779743,32.42720007060902,0 34.87281772852793,32.40317413344471,0 34.86281155225839,32.39016287591716,0 34.84964649799293,32.33892905849233,0 34.8541408705446,32.32767135018302,0 34.84626946043667,32.32423735719426,0 34.82560542429698,32.28627954004739,0 34.81676035844642,32.2547298792441,0 34.81512691063121,32.2183950222189,0 34.7973376682284,32.17082339605933,0 34.78328137226868,32.14478418910011,0 34.78361374880031,32.13296811795738,0 34.77168081692157,32.12240962593815,0 34.76528598769924,32.09200596096574,0 34.7505701599151,32.07059745745181,0 34.73960917780482,32.03718596465564,0 34.7376924425903,32.02299971824551,0 34.71706288307843,31.97457841019794,0 34.6528580292137,31.85448550693811,0 34.63978886375067,31.82186104363606,0 34.61951060027326,31.79282818711127,0 34.61360635797825,31.77303965307225,0 34.58422431416957,31.73686049453671,0 34.5766115911162,31.72535868053039,0 34.57077870481133,31.70926101647596,0 34.50537781297322,31.62225486501358,0 34.50953817342476,31.60411952643383,0 34.54967645445865,31.56912273517622,0 34.55879103897382,31.54839229383458,0 34.53630439351598,31.53073793564072,0 34.54994883022889,31.54062982967062,0 34.50198919775691,31.50543557131335,0 34.47201937627324,31.47697074312365,0 34.43433945007687,31.44790961733735,0 34.38050819891446,31.39079503193392,0 34.37765347991485,31.36170041510862,0 34.38143796836831,31.32599377098451,0 34.34667780900222,31.29064443717971,0 34.30406625641249,31.26179460045654,0 34.16449883360877,31.27928083119739,0 34.01266566509648,31.20975613126886,0 33.98880851925475,31.20033973448739,0 33.97342235247798,31.19378845347567,0 33.97031950244862,31.19541745361027,0 33.96244443480167,31.19040043600581,0 33.95992925843299,31.18986393833894,0 33.77799388209312,31.13542246357117,0 33.81163929293775,31.00114338579536,0 33.92788988659731,30.78195892869503,0 34.20440009305233,30.75281861842307,0 34.20820673573613,30.75291924437134,0 34.28430112224248,30.76263739400995,0 34.39208771621426,30.78573850836096,0 34.43211391295885,30.79055187886233,0 34.47228830658648,30.74124983133397,0 34.48985038786325,30.70691030735831,0 34.49460388191571,30.65278517335592,0 34.51608247532034,30.64730226728831,0 34.52191812048279,30.61099971738691,0 34.53002014046373,30.56074515038684,0 34.5530260282335,30.5109872224806,0 34.55276291523085,30.41867704893917,0 34.61969881884285,30.38242894233395,0 34.62837627851064,30.34190118429724,0 34.65580799122181,30.29831975542344,0 34.70598107973739,30.15044226158717,0 34.73527371937724,30.09517060642999,0 34.76006621189095,30.0208924053414,0 34.76268251638107,29.98199189204282,0 34.81030368821271,29.87417822963024,0 34.82942160167784,29.83341911404972,0 34.8665036786318,29.72591180117559,0 34.87926099608423,29.64439179005243,0 34.884306769727,29.61972258640676,0 34.87079198560996,29.60464264834885,0 34.88166330154522,29.57448128936475,0 34.89398077807521,29.55616860274919,0 34.9161216493995,29.52155446367793,0 34.94206552037598,29.52914047999534,0 34.98030251141702,29.56806006623236,0 34.99645567737732,29.57354011625706,0 34.99639494789933,29.59189785499606,0 35.09166850849959,29.89410047680289,0 35.09146901362561,29.95959828337745,0 35.11376668421511,30.00171209667009,0 35.12502549972768,30.05489279214715,0 35.1352529544574,30.08375538099684,0 35.17868004907456,30.15122591768608,0 35.18578213173221,30.18534456612798,0 35.17259753857137,30.21847480083035,0 35.1627102047614,30.24892999849603,0 35.171212594599,30.31381567822265,0 35.17593897312602,30.33197215650787,0 35.18873406100725,30.35534192404898,0 35.19693031570294,30.37166064343647,0 35.19583596199036,30.38929659062167,0 35.19264149987398,30.40611897512206,0 35.18935526222236,30.41504255815191,0 35.18396397660983,30.43697845897047,0 35.17967882582204,30.46600212840382,0 35.18969084444081,30.49282333223971,0 35.21160945329695,30.55618693315664,0 35.21782676560316,30.59591259904256,0 35.23074239621157,30.62530713580593,0 35.24243380156907,30.64505037854356,0 35.2685092711101,30.69870319412701,0 35.29549234953921,30.72991508377408,0 35.30549698227293,30.76416091213147,0 35.31207629970881,30.79560039069717,0 35.34824281729599,30.83902289399315,0 35.34502947636594,30.88640237518608,0 35.37243364663779,30.93372463716592,0 35.40846469586358,30.96527559429869,0 35.41798921690506,30.9806258373237,0 35.41621292273555,31.02659249089027,0 35.42566643946554,31.05429321051203,0 35.43848857577267,31.07323648210451,0 35.44081980647304,31.07623713439913,0 35.44083318282715,31.07723051155584,0 35.4610074455694,31.12132940196987,0 35.42410208101074,31.11696734672937,0 35.40909038952686,31.12372064557544,0 35.40103855216297,31.13358538648577,0 35.39773393942877,31.1546447423701,0 35.38391352867052,31.17756354754739,0 35.37485227134107,31.20895021004097,0 35.37397067336484,31.23977437726099,0 35.40868824222576,31.24155886324363,0 35.4124921845687,31.2830223409231,0 35.42117220311196,31.34640945427808,0 35.40461913129447,31.41824239166484,0 35.3991246033174,31.44214466809168,0 35.40861688441188,31.46132900946866,0 35.4062037444676,31.50501608955729,0 35.3567134641842,31.49429645716185,0 35.22405414547944,31.3961981828662,0 35.06648470458988,31.3865134280453,0 34.97130669125556,31.37769291769774,0 34.93487142040622,31.37348657681638,0 34.90129001534035,31.40849255775491,0 34.96596617415201,31.5202590424021,0 34.97150292915083,31.60931921157637,0 35.02219167393291,31.65880479121302,0 35.07833403252211,31.68427156903165,0 35.11271901652739,31.70768694258108,0 35.14649666210214,31.66357747269907,0 35.19683478339877,31.69096236905279,0 35.26530315161398,31.70301542854736,0 35.25121862321753,31.80711625157231,0 35.20794048105355,31.82104309474809,0 35.10125691059252,31.84963280652862,0 35.07578265310501,31.85879486146139,0 35.06802262900042,31.86249624794196,0 35.06254191290691,31.87027377699006,0 35.04462550387154,31.87705933340922,0 35.04196849027912,31.88272746846877,0 35.04064062562401,31.8827291127972,0 35.03997623755565,31.88329670344967,0 35.04030854165658,31.8850120266276,0 35.03932366459614,31.90029719768722,0 35.01029674674504,31.93460036115241,0 35.01421852805012,32.01845769379653,0 35.02573799461216,32.03234917696285,0 35.00557200981164,32.11180323902441,0 34.990778908482,32.17238040002555,0 34.98620799300904,32.20400115000089,0 35.00971047411605,32.22062457571322,0 35.03811949918411,32.25179438489868,0 35.03717281493664,32.27772272998911,0 35.02314931281909,32.29638097091347,0 35.0317867597146,32.34052070537196,0 35.05473016115913,32.35673474631785,0 35.06959665566768,32.42015895333255,0 35.09286012276699,32.47271016304764,0 35.15662861653325,32.50381145354941,0 35.22426179933314,32.46902915073744,0 35.24004700835872,32.443888701052,0 35.24255474446709,32.43062682171821,0 35.27896026597741,32.43273760738447,0 35.29799088868838,32.40134463784295,0 35.27238516358366,32.37415188633221,0 35.26417498165198,32.33658732687909,0 35.2699632368501,32.31849396467417,0 35.2963501447389,32.28279534888969,0 35.32112571107607,32.2888696709493,0 35.36162119820504,32.32448986087822,0 35.40289104523151,32.4083325488318,0 35.41775173569096,32.43831444441329,0 35.43275579730151,32.44874238080828,0 35.43774052033038,32.450828585925,0 35.49396458964912,32.40570737006145,0 35.52627481234121,32.39980697287614,0 35.54792202891895,32.40838387555775,0 35.55733775161586,32.45004042408055,0 35.55677374214928,32.50956561588338,0 35.55496182289947,32.54416437399414,0 35.57429340742362,32.56279123806765,0 35.56535725255622,32.61048490349364,0 35.5502353732929,32.63800580564714,0 35.55125755749546,32.64183236192689,0 35.5770643084768,32.64258616269262,0 35.5985289379994,32.66989058121888,0 35.58645576402965,32.67820608853445,0 35.57789402079135,32.72184399313658,0 35.5612978308022,32.72874435445939,0 35.55668419881707,32.74785384149001,0 35.54107228119917,32.77606122998711,0 35.53629269195396,32.79103356660686,0 35.52896478713724,32.8010595648382,0 35.52675811527227,32.80981911716375,0 35.50723577052234,32.8245458676879,0 35.51199025596597,32.84373490623058,0 35.52165000908837,32.8606836254551,0 35.56303275155823,32.87743177055299,0 35.57810997511708,32.88814859568453,0 35.59298150140422,32.88965317476784,0 35.61183528618618,32.86842137519032,0 35.61924476844919,32.86916386521466,0 35.63936479782625,32.97005089989852,0 35.63169867199841,33.01459514175188,0 35.6374947059941,33.03550091102636,0 35.63333830549123,33.06551526718689,0 35.63950549011157,33.08587931678881,0 35.64438161619029,33.12120269878388,0 35.6473446808906,33.138334236441,0 35.65191543447867,33.15831340787651,0 35.6544621892198,33.17314433181105,0 35.65444783025648,33.23282140981078,0 35.65208508138866,33.23942469250933,0 35.65721992027562,33.24879278693624,0 35.64543970773069,33.25744992500157,0 35.60295039421513,33.26229013477649,0 35.57911114987817,33.2751223204113,0 35.55439767266351,33.29380940091147,0 35.5355738672766,33.29067266291258,0 35.53470030601188,33.27826685918553,0 35.52136402402355,33.2551990399083,0 35.51584762263261,33.22472010123833,0 35.50885062001329,33.18697227537151,0 35.50368515251807,33.16039103432977,0 35.50203782554988,33.13354749756122,0 35.47526846891655,33.10624753760408,0 35.44543901840708,33.10377047027077,0 35.41581973232737,33.08595919200023,0 35.41340566591278,33.07895262051616,0 35.3460211484698,33.0720513592761,0 35.33012211148812,33.08250025854213,0 35.32260701680858,33.08663625780581,0 35.32228461371816,33.10137712115166,0 35.31381211089616,33.10842278488598,0 35.30207420979787,33.11193795751552,0 35.28532298818636,33.11473991394798,0 35.26457443492554,33.11044070100402,0 35.23544375849974,33.1054221891355,0 35.20953903202438,33.10797927218503,0 35.19790304645544,33.10713845936934,0 35.19298372935681,33.10143459014872,0 35.16800224078875,33.10477985357302,0 35.15719386358485,33.10403481804102,0 35.14216617918828,33.10150593113385,0 35.12300170171555,33.09989218467648,0 35.10881170190078,33.09975069518762,0 35.10502012276837,33.08482316967749,0 35.10093925879755,33.05028185872536,0 35.08984680196463,33.03200551679261,0 35.08364987659222,33.01734455632715,0 35.0849560393691,33.00074362549869,0 35.07520623771278,32.96969448089287,0 35.07423731678266,32.94784610875296,0 35.06657671802274,32.9321452954194,0 35.06783759872743,32.91796444568333,0 35.07851256142493,32.91404258385374,0 35.0813581059185,32.89995035269347,0 35.07253499421655,32.89716462906559,0 35.06447349854381,32.87100944439997,0 35.04832143120672,32.84825085952576,0 35.02096335974051,32.82947987891215,0 35.00354878966301,32.8424211481943,0 34.99291982736808,32.84692337035011,0 34.97848744684921,32.84608301221163,0 34.96814292032249,32.8432952713551,0 34.94771597244574,32.82405964268847,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>Israel's Borders - Day 1</name>
+						<TimeSpan>
+							<begin>1967-06-05T00:00:59Z</begin>
+							<end>1967-06-06</end>
+						</TimeSpan>
+						<styleUrl>#sn_noicon</styleUrl>
+						<Point>
+							<coordinates>34.85868447819848,31.1737093623432,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Folder id="day2_map">
+					<name>Day 2</name>
+					<!-- <LookAt>
+					     <gx:TimeSpan>
+					     <begin>1967-06-06T00:00:59Z</begin>
+					     <end>1967-06-07</end>
+					</gx:TimeSpan>
+					     <longitude>37.31069116206416</longitude>
+					     <latitude>31.26037631648837</latitude>
+					     <altitude>0</altitude>
+					     <heading>-7.468764692683683e-07</heading>
+					     <tilt>0</tilt>
+					     <range>1514936.330006588</range>
+					     <altitudeMode>relativeToGround</altitudeMode>
+					     <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					     <Style>
+					     <ListStyle>
+					     <listItemType>checkHideChildren</listItemType>
+					     <bgColor>00ffffff</bgColor>
+					     <maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+					</Style> -->
+					<Placemark>
+						<name>Day 2</name>
+						<TimeSpan>
+							<begin>1967-06-06T00:00:59Z</begin>
+							<end>1967-06-07</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										34.94771597244574,32.82405964268847,0 34.94296902430377,32.78194671581744,0 34.9470851395925,32.75568273113176,0 34.95752820699168,32.74200732189688,0 34.94602265091638,32.73190805445886,0 34.93396639423327,32.7145117138049,0 34.92786056291619,32.69581568278255,0 34.91438298459519,32.62362326144165,0 34.92085763849665,32.60140350628659,0 34.91874846261896,32.56475919848738,0 34.90905155397429,32.53725063840234,0 34.90215580341584,32.52490653552402,0 34.89678608764041,32.51601163351916,0 34.89201933918686,32.49095116450975,0 34.89167694569952,32.47817869216313,0 34.88385408817617,32.45461958971037,0 34.8865171779743,32.42720007060902,0 34.87281772852793,32.40317413344471,0 34.86281155225839,32.39016287591716,0 34.84964649799293,32.33892905849233,0 34.8541408705446,32.32767135018302,0 34.84626946043667,32.32423735719426,0 34.82560542429698,32.28627954004739,0 34.81676035844642,32.2547298792441,0 34.81512691063121,32.2183950222189,0 34.7973376682284,32.17082339605933,0 34.78328137226868,32.14478418910011,0 34.78361374880031,32.13296811795738,0 34.77168081692157,32.12240962593815,0 34.76528598769924,32.09200596096574,0 34.7505701599151,32.07059745745181,0 34.73960917780482,32.03718596465564,0 34.7376924425903,32.02299971824551,0 34.71706288307843,31.97457841019794,0 34.6528580292137,31.85448550693811,0 34.63978886375067,31.82186104363606,0 34.61951060027326,31.79282818711127,0 34.61360635797825,31.77303965307225,0 34.58422431416957,31.73686049453671,0 34.5766115911162,31.72535868053039,0 34.57077870481133,31.70926101647596,0 34.50537781297322,31.62225486501358,0 34.50953817342476,31.60411952643383,0 34.47868075966473,31.60834570454229,0 34.38080014970485,31.47913819048518,0 34.49849959019222,31.6063710503755,0 34.50841450928063,31.60432915706085,0 34.49854738687681,31.60005334649614,0 34.49850305612364,31.60426109271888,0 34.47388198958119,31.59358704783573,0 34.46417495852167,31.56612990410538,0 34.43713217715964,31.54487671066068,0 34.37090031843918,31.47906933621719,0 34.29256561061545,31.38564255828915,0 34.23361276887638,31.33654774883018,0 34.16449883360877,31.27928083119739,0 34.01266566509648,31.20975613126886,0 33.98880851925475,31.20033973448739,0 33.97342235247798,31.19378845347567,0 33.97031950244862,31.19541745361027,0 33.96244443480167,31.19040043600581,0 33.95992925843299,31.18986393833894,0 33.58869439871197,31.1064065633361,0 33.62572276969138,30.98172528028229,0 33.69766845181216,29.46185210631509,0 34.14441245663846,29.49657293895701,0 34.41504623696955,29.48617333948054,0 34.67196372217512,29.46555564871075,0 34.8015557110346,29.45188669423912,0 34.8654371339819,29.4490565549574,0 34.9161216493995,29.52155446367793,0 34.94206552037598,29.52914047999534,0 34.98030251141702,29.56806006623236,0 34.99645567737732,29.57354011625706,0 34.99639494789933,29.59189785499606,0 35.09166850849959,29.89410047680289,0 35.09146901362561,29.95959828337745,0 35.11376668421511,30.00171209667009,0 35.12502549972768,30.05489279214715,0 35.1352529544574,30.08375538099684,0 35.17868004907456,30.15122591768608,0 35.18578213173221,30.18534456612798,0 35.17259753857137,30.21847480083035,0 35.1627102047614,30.24892999849603,0 35.171212594599,30.31381567822265,0 35.17593897312602,30.33197215650787,0 35.18873406100725,30.35534192404898,0 35.19693031570294,30.37166064343647,0 35.19583596199036,30.38929659062167,0 35.19264149987398,30.40611897512206,0 35.18935526222236,30.41504255815191,0 35.18396397660983,30.43697845897047,0 35.17967882582204,30.46600212840382,0 35.18969084444081,30.49282333223971,0 35.21160945329695,30.55618693315664,0 35.21782676560316,30.59591259904256,0 35.23074239621157,30.62530713580593,0 35.24243380156907,30.64505037854356,0 35.2685092711101,30.69870319412701,0 35.29549234953921,30.72991508377408,0 35.30549698227293,30.76416091213147,0 35.31207629970881,30.79560039069717,0 35.34824281729599,30.83902289399315,0 35.34502947636594,30.88640237518608,0 35.37243364663779,30.93372463716592,0 35.40846469586358,30.96527559429869,0 35.41798921690506,30.9806258373237,0 35.41621292273555,31.02659249089027,0 35.42566643946554,31.05429321051203,0 35.43848857577267,31.07323648210451,0 35.44081980647304,31.07623713439913,0 35.44083318282715,31.07723051155584,0 35.4610074455694,31.12132940196987,0 35.42410208101074,31.11696734672937,0 35.40909038952686,31.12372064557544,0 35.40103855216297,31.13358538648577,0 35.39773393942877,31.1546447423701,0 35.38391352867052,31.17756354754739,0 35.37485227134107,31.20895021004097,0 35.37397067336484,31.23977437726099,0 35.40868824222576,31.24155886324363,0 35.4124921845687,31.2830223409231,0 35.42117220311196,31.34640945427808,0 35.40461913129447,31.41824239166484,0 35.3991246033174,31.44214466809168,0 35.40861688441188,31.46132900946866,0 35.4062037444676,31.50501608955729,0 35.3567134641842,31.49429645716185,0 35.22405414547944,31.3961981828662,0 35.06648470458988,31.3865134280453,0 34.97130669125556,31.37769291769774,0 34.93487142040622,31.37348657681638,0 34.90129001534035,31.40849255775491,0 34.96596617415201,31.5202590424021,0 34.97150292915083,31.60931921157637,0 35.02219167393291,31.65880479121302,0 35.07833403252211,31.68427156903165,0 35.11271901652739,31.70768694258108,0 35.14649666210214,31.66357747269907,0 35.19683478339877,31.69096236905279,0 35.31527865981844,31.8245844730673,0 35.32702592483366,31.85266829145774,0 35.33340944203823,31.87046577228734,0 35.32904328589342,31.88486626465998,0 35.32300925341585,31.8948574860505,0 35.30378945306258,31.9090834100015,0 35.20863456579199,32.01217928898004,0 35.08065598567332,32.03845200164653,0 35.00557200981164,32.11180323902441,0 34.990778908482,32.17238040002555,0 34.98620799300904,32.20400115000089,0 35.00971047411605,32.22062457571322,0 35.03811949918411,32.25179438489868,0 35.03717281493664,32.27772272998911,0 35.02314931281909,32.29638097091347,0 35.0317867597146,32.34052070537196,0 35.05473016115913,32.35673474631785,0 35.06959665566768,32.42015895333255,0 35.09286012276699,32.47271016304764,0 35.22426179933314,32.46902915073744,0 35.24004700835872,32.443888701052,0 35.24255474446709,32.43062682171821,0 35.27896026597741,32.43273760738447,0 35.29799088868838,32.40134463784295,0 35.27238516358366,32.37415188633221,0 35.26417498165198,32.33658732687909,0 35.2699632368501,32.31849396467417,0 35.2963501447389,32.28279534888969,0 35.32112571107607,32.2888696709493,0 35.36162119820504,32.32448986087822,0 35.40289104523151,32.4083325488318,0 35.41775173569096,32.43831444441329,0 35.43275579730151,32.44874238080828,0 35.43774052033038,32.450828585925,0 35.49396458964912,32.40570737006145,0 35.52627481234121,32.39980697287614,0 35.54792202891895,32.40838387555775,0 35.55733775161586,32.45004042408055,0 35.55677374214928,32.50956561588338,0 35.55496182289947,32.54416437399414,0 35.57429340742362,32.56279123806765,0 35.56535725255622,32.61048490349364,0 35.5502353732929,32.63800580564714,0 35.55125755749546,32.64183236192689,0 35.5770643084768,32.64258616269262,0 35.5985289379994,32.66989058121888,0 35.58645576402965,32.67820608853445,0 35.57789402079135,32.72184399313658,0 35.5612978308022,32.72874435445939,0 35.55668419881707,32.74785384149001,0 35.54107228119917,32.77606122998711,0 35.53629269195396,32.79103356660686,0 35.52896478713724,32.8010595648382,0 35.52675811527227,32.80981911716375,0 35.50723577052234,32.8245458676879,0 35.51199025596597,32.84373490623058,0 35.52165000908837,32.8606836254551,0 35.56303275155823,32.87743177055299,0 35.57810997511708,32.88814859568453,0 35.59298150140422,32.88965317476784,0 35.61183528618618,32.86842137519032,0 35.61924476844919,32.86916386521466,0 35.63936479782625,32.97005089989852,0 35.63169867199841,33.01459514175188,0 35.6374947059941,33.03550091102636,0 35.63333830549123,33.06551526718689,0 35.63950549011157,33.08587931678881,0 35.64438161619029,33.12120269878388,0 35.6473446808906,33.138334236441,0 35.65191543447867,33.15831340787651,0 35.6544621892198,33.17314433181105,0 35.65444783025648,33.23282140981078,0 35.65208508138866,33.23942469250933,0 35.65721992027562,33.24879278693624,0 35.64543970773069,33.25744992500157,0 35.60295039421513,33.26229013477649,0 35.57911114987817,33.2751223204113,0 35.55439767266351,33.29380940091147,0 35.5355738672766,33.29067266291258,0 35.53470030601188,33.27826685918553,0 35.52136402402355,33.2551990399083,0 35.51584762263261,33.22472010123833,0 35.50885062001329,33.18697227537151,0 35.50368515251807,33.16039103432977,0 35.50203782554988,33.13354749756122,0 35.47526846891655,33.10624753760408,0 35.44543901840708,33.10377047027077,0 35.41581973232737,33.08595919200023,0 35.41340566591278,33.07895262051616,0 35.3460211484698,33.0720513592761,0 35.33012211148812,33.08250025854213,0 35.32260701680858,33.08663625780581,0 35.32228461371816,33.10137712115166,0 35.31381211089616,33.10842278488598,0 35.30207420979787,33.11193795751552,0 35.28532298818636,33.11473991394798,0 35.26457443492554,33.11044070100402,0 35.23544375849974,33.1054221891355,0 35.20953903202438,33.10797927218503,0 35.19790304645544,33.10713845936934,0 35.19298372935681,33.10143459014872,0 35.16800224078875,33.10477985357302,0 35.15719386358485,33.10403481804102,0 35.14216617918828,33.10150593113385,0 35.12300170171555,33.09989218467648,0 35.10881170190078,33.09975069518762,0 35.10502012276837,33.08482316967749,0 35.10093925879755,33.05028185872536,0 35.08984680196463,33.03200551679261,0 35.08364987659222,33.01734455632715,0 35.0849560393691,33.00074362549869,0 35.07520623771278,32.96969448089287,0 35.07423731678266,32.94784610875296,0 35.06657671802274,32.9321452954194,0 35.06783759872743,32.91796444568333,0 35.07851256142493,32.91404258385374,0 35.0813581059185,32.89995035269347,0 35.07253499421655,32.89716462906559,0 35.06447349854381,32.87100944439997,0 35.04832143120672,32.84825085952576,0 35.02096335974051,32.82947987891215,0 35.00354878966301,32.8424211481943,0 34.99291982736808,32.84692337035011,0 34.97848744684921,32.84608301221163,0 34.96814292032249,32.8432952713551,0 34.94771597244574,32.82405964268847,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>Israel's Borders - Day 2</name>
+						<TimeSpan>
+							<begin>1967-06-06T00:00:59Z</begin>
+							<end>1967-06-07</end>
+						</TimeSpan>
+						<styleUrl>#sn_noicon</styleUrl>
+						<Point>
+							<coordinates>34.85868447819848,31.1737093623432,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Folder id="day3_map">
+					<name>Day 3</name>
+					<!-- <LookAt>
+					     <gx:TimeSpan>
+					     <begin>1967-06-07T00:00:59Z</begin>
+					     <end>1967-06-08</end>
+					</gx:TimeSpan>
+					     <longitude>37.31069116206416</longitude>
+					     <latitude>31.26037631648837</latitude>
+					     <altitude>0</altitude>
+					     <heading>-7.468764692683683e-07</heading>
+					     <tilt>0</tilt>
+					     <range>1514936.330006588</range>
+					     <altitudeMode>relativeToGround</altitudeMode>
+					     <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					     <Style>
+					     <ListStyle>
+					     <listItemType>checkHideChildren</listItemType>
+					     <bgColor>00ffffff</bgColor>
+					     <maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+					</Style> -->
+					<Placemark>
+						<name>Day 3</name>
+						<TimeSpan>
+							<begin>1967-06-07T00:00:59Z</begin>
+							<end>1967-06-08</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										34.94771597244574,32.82405964268847,0 34.94296902430377,32.78194671581744,0 34.9470851395925,32.75568273113176,0 34.95752820699168,32.74200732189688,0 34.94602265091638,32.73190805445886,0 34.93396639423327,32.7145117138049,0 34.92786056291619,32.69581568278255,0 34.91438298459519,32.62362326144165,0 34.92085763849665,32.60140350628659,0 34.91874846261896,32.56475919848738,0 34.90905155397429,32.53725063840234,0 34.90215580341584,32.52490653552402,0 34.89678608764041,32.51601163351916,0 34.89201933918686,32.49095116450975,0 34.89167694569952,32.47817869216313,0 34.88385408817617,32.45461958971037,0 34.8865171779743,32.42720007060902,0 34.87281772852793,32.40317413344471,0 34.86281155225839,32.39016287591716,0 34.84964649799293,32.33892905849233,0 34.8541408705446,32.32767135018302,0 34.84626946043667,32.32423735719426,0 34.82560542429698,32.28627954004739,0 34.81676035844642,32.2547298792441,0 34.81512691063121,32.2183950222189,0 34.7973376682284,32.17082339605933,0 34.78328137226868,32.14478418910011,0 34.78361374880031,32.13296811795738,0 34.77168081692157,32.12240962593815,0 34.76528598769924,32.09200596096574,0 34.7505701599151,32.07059745745181,0 34.73960917780482,32.03718596465564,0 34.7376924425903,32.02299971824551,0 34.71706288307843,31.97457841019794,0 34.6528580292137,31.85448550693811,0 34.63978886375067,31.82186104363606,0 34.61951060027326,31.79282818711127,0 34.61360635797825,31.77303965307225,0 34.58422431416957,31.73686049453671,0 34.5766115911162,31.72535868053039,0 34.57077870481133,31.70926101647596,0 34.50537781297322,31.62225486501358,0 34.50953817342476,31.60411952643383,0 34.47868075966473,31.60834570454229,0 34.38080014970485,31.47913819048518,0 34.49849959019222,31.6063710503755,0 34.50841450928063,31.60432915706085,0 34.49854738687681,31.60005334649614,0 34.49850305612364,31.60426109271888,0 34.47388198958119,31.59358704783573,0 34.46417495852167,31.56612990410538,0 34.43713217715964,31.54487671066068,0 34.37090031843918,31.47906933621719,0 34.29256561061545,31.38564255828915,0 34.23361276887638,31.33654774883018,0 34.16449883360877,31.27928083119739,0 34.01266566509648,31.20975613126886,0 33.98880851925475,31.20033973448739,0 33.97342235247798,31.19378845347567,0 33.97031950244862,31.19541745361027,0 33.94807199618885,31.1885070501854,0 33.73570769443621,31.12968045244874,0 33.70039211900482,31.12988013964994,0 33.70141143704041,31.12631736175922,0 33.53190997556986,31.11756998133686,0 33.39880291553637,31.16533775794424,0 33.17049207348464,31.23471742719591,0 33.10563663816949,31.22870208935808,0 32.80886396743688,31.09015573015875,0 32.52270724736592,30.89994549437357,0 33.69766845181216,29.46185210631509,0 34.14441245663846,29.49657293895701,0 34.41504623696955,29.48617333948054,0 34.67196372217512,29.46555564871075,0 34.8015557110346,29.45188669423912,0 34.8654371339819,29.4490565549574,0 34.9161216493995,29.52155446367793,0 34.94206552037598,29.52914047999534,0 34.98030251141702,29.56806006623236,0 34.99645567737732,29.57354011625706,0 34.99639494789933,29.59189785499606,0 35.09166850849959,29.89410047680289,0 35.09146901362561,29.95959828337745,0 35.11376668421511,30.00171209667009,0 35.12502549972768,30.05489279214715,0 35.1352529544574,30.08375538099684,0 35.17868004907456,30.15122591768608,0 35.18578213173221,30.18534456612798,0 35.17259753857137,30.21847480083035,0 35.1627102047614,30.24892999849603,0 35.171212594599,30.31381567822265,0 35.17593897312602,30.33197215650787,0 35.18873406100725,30.35534192404898,0 35.19693031570294,30.37166064343647,0 35.19583596199036,30.38929659062167,0 35.19264149987398,30.40611897512206,0 35.18935526222236,30.41504255815191,0 35.18396397660983,30.43697845897047,0 35.17967882582204,30.46600212840382,0 35.18969084444081,30.49282333223971,0 35.21160945329695,30.55618693315664,0 35.21782676560316,30.59591259904256,0 35.23074239621157,30.62530713580593,0 35.24243380156907,30.64505037854356,0 35.2685092711101,30.69870319412701,0 35.29549234953921,30.72991508377408,0 35.30549698227293,30.76416091213147,0 35.31207629970881,30.79560039069717,0 35.34824281729599,30.83902289399315,0 35.34502947636594,30.88640237518608,0 35.37243364663779,30.93372463716592,0 35.40846469586358,30.96527559429869,0 35.41798921690506,30.9806258373237,0 35.41621292273555,31.02659249089027,0 35.42566643946554,31.05429321051203,0 35.43848857577267,31.07323648210451,0 35.44081980647304,31.07623713439913,0 35.44083318282715,31.07723051155584,0 35.4610074455694,31.12132940196987,0 35.42410208101074,31.11696734672937,0 35.40909038952686,31.12372064557544,0 35.40103855216297,31.13358538648577,0 35.39773393942877,31.1546447423701,0 35.38391352867052,31.17756354754739,0 35.37485227134107,31.20895021004097,0 35.37397067336484,31.23977437726099,0 35.40868824222576,31.24155886324363,0 35.4124921845687,31.2830223409231,0 35.42117220311196,31.34640945427808,0 35.40461913129447,31.41824239166484,0 35.3991246033174,31.44214466809168,0 35.40861688441188,31.46132900946866,0 35.4062037444676,31.50501608955729,0 35.49797219577552,31.79359797429347,0 35.54792202891895,32.40838387555775,0 35.55733775161586,32.45004042408055,0 35.55677374214928,32.50956561588338,0 35.55496182289947,32.54416437399414,0 35.57429340742362,32.56279123806765,0 35.56535725255622,32.61048490349364,0 35.5502353732929,32.63800580564714,0 35.55125755749546,32.64183236192689,0 35.5770643084768,32.64258616269262,0 35.5985289379994,32.66989058121888,0 35.58645576402965,32.67820608853445,0 35.57789402079135,32.72184399313658,0 35.5612978308022,32.72874435445939,0 35.55668419881707,32.74785384149001,0 35.54107228119917,32.77606122998711,0 35.53629269195396,32.79103356660686,0 35.52896478713724,32.8010595648382,0 35.52675811527227,32.80981911716375,0 35.50723577052234,32.8245458676879,0 35.51199025596597,32.84373490623058,0 35.52165000908837,32.8606836254551,0 35.56303275155823,32.87743177055299,0 35.57810997511708,32.88814859568453,0 35.59298150140422,32.88965317476784,0 35.61183528618618,32.86842137519032,0 35.61924476844919,32.86916386521466,0 35.63936479782625,32.97005089989852,0 35.63169867199841,33.01459514175188,0 35.6374947059941,33.03550091102636,0 35.63333830549123,33.06551526718689,0 35.63950549011157,33.08587931678881,0 35.64438161619029,33.12120269878388,0 35.6473446808906,33.138334236441,0 35.65191543447867,33.15831340787651,0 35.6544621892198,33.17314433181105,0 35.65444783025648,33.23282140981078,0 35.65208508138866,33.23942469250933,0 35.65721992027562,33.24879278693624,0 35.64543970773069,33.25744992500157,0 35.60295039421513,33.26229013477649,0 35.57911114987817,33.2751223204113,0 35.55439767266351,33.29380940091147,0 35.5355738672766,33.29067266291258,0 35.53470030601188,33.27826685918553,0 35.52136402402355,33.2551990399083,0 35.51584762263261,33.22472010123833,0 35.50885062001329,33.18697227537151,0 35.50368515251807,33.16039103432977,0 35.50203782554988,33.13354749756122,0 35.47526846891655,33.10624753760408,0 35.44543901840708,33.10377047027077,0 35.41581973232737,33.08595919200023,0 35.41340566591278,33.07895262051616,0 35.3460211484698,33.0720513592761,0 35.33012211148812,33.08250025854213,0 35.32260701680858,33.08663625780581,0 35.32228461371816,33.10137712115166,0 35.31381211089616,33.10842278488598,0 35.30207420979787,33.11193795751552,0 35.28532298818636,33.11473991394798,0 35.26457443492554,33.11044070100402,0 35.23544375849974,33.1054221891355,0 35.20953903202438,33.10797927218503,0 35.19790304645544,33.10713845936934,0 35.19298372935681,33.10143459014872,0 35.16800224078875,33.10477985357302,0 35.15719386358485,33.10403481804102,0 35.14216617918828,33.10150593113385,0 35.12300170171555,33.09989218467648,0 35.10881170190078,33.09975069518762,0 35.10502012276837,33.08482316967749,0 35.10093925879755,33.05028185872536,0 35.08984680196463,33.03200551679261,0 35.08364987659222,33.01734455632715,0 35.0849560393691,33.00074362549869,0 35.07520623771278,32.96969448089287,0 35.07423731678266,32.94784610875296,0 35.06657671802274,32.9321452954194,0 35.06783759872743,32.91796444568333,0 35.07851256142493,32.91404258385374,0 35.0813581059185,32.89995035269347,0 35.07253499421655,32.89716462906559,0 35.06447349854381,32.87100944439997,0 35.04832143120672,32.84825085952576,0 35.02096335974051,32.82947987891215,0 35.00354878966301,32.8424211481943,0 34.99291982736808,32.84692337035011,0 34.97848744684921,32.84608301221163,0 34.96814292032249,32.8432952713551,0 34.94771597244574,32.82405964268847,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>Israel's Borders - Day 3</name>
+						<TimeSpan>
+							<begin>1967-06-07T00:00:59Z</begin>
+							<end>1967-06-08</end>
+						</TimeSpan>
+						<styleUrl>#sn_noicon</styleUrl>
+						<Point>
+							<coordinates>34.85868447819848,31.1737093623432,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Folder id="day4_map">
+					<name>Day 4</name>
+					<!-- <LookAt>
+					     <gx:TimeSpan>
+					     <begin>1967-06-08T00:00:59Z</begin>
+					     <end>1967-06-09</end>
+					</gx:TimeSpan>
+					     <longitude>37.31069116206416</longitude>
+					     <latitude>31.26037631648837</latitude>
+					     <altitude>0</altitude>
+					     <heading>-7.468764692683683e-07</heading>
+					     <tilt>0</tilt>
+					     <range>1514936.330006588</range>
+					     <altitudeMode>relativeToGround</altitudeMode>
+					     <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					     <Style>
+					     <ListStyle>
+					     <listItemType>checkHideChildren</listItemType>
+					     <bgColor>00ffffff</bgColor>
+					     <maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+					</Style> -->
+					<Placemark>
+						<name>Israel's Borders - Day 4</name>
+						<TimeSpan>
+							<begin>1967-06-08T00:00:59Z</begin>
+							<end>1967-06-09</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Point>
+							<coordinates>34.85868447819848,31.1737093623432,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Day 4</name>
+						<TimeSpan>
+							<begin>1967-06-08T00:00:59Z</begin>
+							<end>1967-06-09</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										34.94771597244574,32.82405964268847,0 34.94296902430377,32.78194671581744,0 34.9470851395925,32.75568273113176,0 34.95752820699168,32.74200732189688,0 34.94602265091638,32.73190805445886,0 34.93396639423327,32.7145117138049,0 34.92786056291619,32.69581568278255,0 34.91438298459519,32.62362326144165,0 34.92085763849665,32.60140350628659,0 34.91874846261896,32.56475919848738,0 34.90905155397429,32.53725063840234,0 34.90215580341584,32.52490653552402,0 34.89678608764041,32.51601163351916,0 34.89201933918686,32.49095116450975,0 34.89167694569952,32.47817869216313,0 34.88385408817617,32.45461958971037,0 34.8865171779743,32.42720007060902,0 34.87281772852793,32.40317413344471,0 34.86281155225839,32.39016287591716,0 34.84964649799293,32.33892905849233,0 34.8541408705446,32.32767135018302,0 34.84626946043667,32.32423735719426,0 34.82560542429698,32.28627954004739,0 34.81676035844642,32.2547298792441,0 34.81512691063121,32.2183950222189,0 34.7973376682284,32.17082339605933,0 34.78328137226868,32.14478418910011,0 34.78361374880031,32.13296811795738,0 34.77168081692157,32.12240962593815,0 34.76528598769924,32.09200596096574,0 34.7505701599151,32.07059745745181,0 34.73960917780482,32.03718596465564,0 34.7376924425903,32.02299971824551,0 34.71706288307843,31.97457841019794,0 34.6528580292137,31.85448550693811,0 34.63978886375067,31.82186104363606,0 34.61951060027326,31.79282818711127,0 34.61360635797825,31.77303965307225,0 34.58422431416957,31.73686049453671,0 34.5766115911162,31.72535868053039,0 34.57077870481133,31.70926101647596,0 34.50537781297322,31.62225486501358,0 34.50953817342476,31.60411952643383,0 34.47868075966473,31.60834570454229,0 34.38080014970485,31.47913819048518,0 34.49849959019222,31.6063710503755,0 34.50841450928063,31.60432915706085,0 34.49854738687681,31.60005334649614,0 34.49850305612364,31.60426109271888,0 34.47388198958119,31.59358704783573,0 34.46417495852167,31.56612990410538,0 34.43713217715964,31.54487671066068,0 34.37090031843918,31.47906933621719,0 34.29256561061545,31.38564255828915,0 34.23361276887638,31.33654774883018,0 34.16449883360877,31.27928083119739,0 34.01266566509648,31.20975613126886,0 33.98880851925475,31.20033973448739,0 33.97342235247798,31.19378845347567,0 33.97031950244862,31.19541745361027,0 33.94807199618885,31.1885070501854,0 33.73570769443621,31.12968045244874,0 33.70039211900482,31.12988013964994,0 33.70141143704041,31.12631736175922,0 33.53190997556986,31.11756998133686,0 33.39880291553637,31.16533775794424,0 33.17049207348464,31.23471742719591,0 33.10563663816949,31.22870208935808,0 32.80886396743688,31.09015573015875,0 32.52270724736592,30.89994549437357,0 33.69766845181216,29.46185210631509,0 34.14441245663846,29.49657293895701,0 34.41504623696955,29.48617333948054,0 34.67196372217512,29.46555564871075,0 34.8015557110346,29.45188669423912,0 34.8654371339819,29.4490565549574,0 34.9161216493995,29.52155446367793,0 34.94206552037598,29.52914047999534,0 34.98030251141702,29.56806006623236,0 34.99645567737732,29.57354011625706,0 34.99639494789933,29.59189785499606,0 35.09166850849959,29.89410047680289,0 35.09146901362561,29.95959828337745,0 35.11376668421511,30.00171209667009,0 35.12502549972768,30.05489279214715,0 35.1352529544574,30.08375538099684,0 35.17868004907456,30.15122591768608,0 35.18578213173221,30.18534456612798,0 35.17259753857137,30.21847480083035,0 35.1627102047614,30.24892999849603,0 35.171212594599,30.31381567822265,0 35.17593897312602,30.33197215650787,0 35.18873406100725,30.35534192404898,0 35.19693031570294,30.37166064343647,0 35.19583596199036,30.38929659062167,0 35.19264149987398,30.40611897512206,0 35.18935526222236,30.41504255815191,0 35.18396397660983,30.43697845897047,0 35.17967882582204,30.46600212840382,0 35.18969084444081,30.49282333223971,0 35.21160945329695,30.55618693315664,0 35.21782676560316,30.59591259904256,0 35.23074239621157,30.62530713580593,0 35.24243380156907,30.64505037854356,0 35.2685092711101,30.69870319412701,0 35.29549234953921,30.72991508377408,0 35.30549698227293,30.76416091213147,0 35.31207629970881,30.79560039069717,0 35.34824281729599,30.83902289399315,0 35.34502947636594,30.88640237518608,0 35.37243364663779,30.93372463716592,0 35.40846469586358,30.96527559429869,0 35.41798921690506,30.9806258373237,0 35.41621292273555,31.02659249089027,0 35.42566643946554,31.05429321051203,0 35.43848857577267,31.07323648210451,0 35.44081980647304,31.07623713439913,0 35.44083318282715,31.07723051155584,0 35.4610074455694,31.12132940196987,0 35.42410208101074,31.11696734672937,0 35.40909038952686,31.12372064557544,0 35.40103855216297,31.13358538648577,0 35.39773393942877,31.1546447423701,0 35.38391352867052,31.17756354754739,0 35.37485227134107,31.20895021004097,0 35.37397067336484,31.23977437726099,0 35.40868824222576,31.24155886324363,0 35.4124921845687,31.2830223409231,0 35.42117220311196,31.34640945427808,0 35.40461913129447,31.41824239166484,0 35.3991246033174,31.44214466809168,0 35.40861688441188,31.46132900946866,0 35.4062037444676,31.50501608955729,0 35.49797219577552,31.79359797429347,0 35.54792202891895,32.40838387555775,0 35.55733775161586,32.45004042408055,0 35.55677374214928,32.50956561588338,0 35.55496182289947,32.54416437399414,0 35.57429340742362,32.56279123806765,0 35.56535725255622,32.61048490349364,0 35.5502353732929,32.63800580564714,0 35.55125755749546,32.64183236192689,0 35.5770643084768,32.64258616269262,0 35.5985289379994,32.66989058121888,0 35.58645576402965,32.67820608853445,0 35.57789402079135,32.72184399313658,0 35.5612978308022,32.72874435445939,0 35.55668419881707,32.74785384149001,0 35.54107228119917,32.77606122998711,0 35.53629269195396,32.79103356660686,0 35.52896478713724,32.8010595648382,0 35.52675811527227,32.80981911716375,0 35.50723577052234,32.8245458676879,0 35.51199025596597,32.84373490623058,0 35.52165000908837,32.8606836254551,0 35.56303275155823,32.87743177055299,0 35.57810997511708,32.88814859568453,0 35.59298150140422,32.88965317476784,0 35.61183528618618,32.86842137519032,0 35.61924476844919,32.86916386521466,0 35.63936479782625,32.97005089989852,0 35.63169867199841,33.01459514175188,0 35.6374947059941,33.03550091102636,0 35.63333830549123,33.06551526718689,0 35.63950549011157,33.08587931678881,0 35.64438161619029,33.12120269878388,0 35.6473446808906,33.138334236441,0 35.65191543447867,33.15831340787651,0 35.6544621892198,33.17314433181105,0 35.65444783025648,33.23282140981078,0 35.65208508138866,33.23942469250933,0 35.65721992027562,33.24879278693624,0 35.64543970773069,33.25744992500157,0 35.60295039421513,33.26229013477649,0 35.57911114987817,33.2751223204113,0 35.55439767266351,33.29380940091147,0 35.5355738672766,33.29067266291258,0 35.53470030601188,33.27826685918553,0 35.52136402402355,33.2551990399083,0 35.51584762263261,33.22472010123833,0 35.50885062001329,33.18697227537151,0 35.50368515251807,33.16039103432977,0 35.50203782554988,33.13354749756122,0 35.47526846891655,33.10624753760408,0 35.44543901840708,33.10377047027077,0 35.41581973232737,33.08595919200023,0 35.41340566591278,33.07895262051616,0 35.3460211484698,33.0720513592761,0 35.33012211148812,33.08250025854213,0 35.32260701680858,33.08663625780581,0 35.32228461371816,33.10137712115166,0 35.31381211089616,33.10842278488598,0 35.30207420979787,33.11193795751552,0 35.28532298818636,33.11473991394798,0 35.26457443492554,33.11044070100402,0 35.23544375849974,33.1054221891355,0 35.20953903202438,33.10797927218503,0 35.19790304645544,33.10713845936934,0 35.19298372935681,33.10143459014872,0 35.16800224078875,33.10477985357302,0 35.15719386358485,33.10403481804102,0 35.14216617918828,33.10150593113385,0 35.12300170171555,33.09989218467648,0 35.10881170190078,33.09975069518762,0 35.10502012276837,33.08482316967749,0 35.10093925879755,33.05028185872536,0 35.08984680196463,33.03200551679261,0 35.08364987659222,33.01734455632715,0 35.0849560393691,33.00074362549869,0 35.07520623771278,32.96969448089287,0 35.07423731678266,32.94784610875296,0 35.06657671802274,32.9321452954194,0 35.06783759872743,32.91796444568333,0 35.07851256142493,32.91404258385374,0 35.0813581059185,32.89995035269347,0 35.07253499421655,32.89716462906559,0 35.06447349854381,32.87100944439997,0 35.04832143120672,32.84825085952576,0 35.02096335974051,32.82947987891215,0 35.00354878966301,32.8424211481943,0 34.99291982736808,32.84692337035011,0 34.97848744684921,32.84608301221163,0 34.96814292032249,32.8432952713551,0 34.94771597244574,32.82405964268847,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder id="day5_map">
+					<name>Day 5</name>
+					<!-- <LookAt>
+					     <gx:TimeSpan>
+					     <begin>1967-06-09T00:00:59Z</begin>
+					     <end>1967-06-10</end>
+					</gx:TimeSpan>
+					     <longitude>37.31069116206416</longitude>
+					     <latitude>31.26037631648837</latitude>
+					     <altitude>0</altitude>
+					     <heading>-7.468764692683683e-07</heading>
+					     <tilt>0</tilt>
+					     <range>1514936.330006588</range>
+					     <altitudeMode>relativeToGround</altitudeMode>
+					     <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					     <Style>
+					     <ListStyle>
+					     <listItemType>checkHideChildren</listItemType>
+					     <bgColor>00ffffff</bgColor>
+					     <maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+					</Style> -->
+					<Placemark>
+						<name>Israel's Borders - Day 5</name>
+						<TimeSpan>
+							<begin>1967-06-09T00:00:59Z</begin>
+							<end>1967-06-10</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Point>
+							<coordinates>34.85868447819848,31.1737093623432,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Day 5</name>
+						<TimeSpan>
+							<begin>1967-06-09T00:00:59Z</begin>
+							<end>1967-06-10</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										34.94771597244574,32.82405964268847,0 34.94296902430377,32.78194671581744,0 34.9470851395925,32.75568273113176,0 34.95752820699168,32.74200732189688,0 34.94602265091638,32.73190805445886,0 34.93396639423327,32.7145117138049,0 34.92786056291619,32.69581568278255,0 34.91438298459519,32.62362326144165,0 34.92085763849665,32.60140350628659,0 34.91874846261896,32.56475919848738,0 34.90905155397429,32.53725063840234,0 34.90215580341584,32.52490653552402,0 34.89678608764041,32.51601163351916,0 34.89201933918686,32.49095116450975,0 34.89167694569952,32.47817869216313,0 34.88385408817617,32.45461958971037,0 34.8865171779743,32.42720007060902,0 34.87281772852793,32.40317413344471,0 34.86281155225839,32.39016287591716,0 34.84964649799293,32.33892905849233,0 34.8541408705446,32.32767135018302,0 34.84626946043667,32.32423735719426,0 34.82560542429698,32.28627954004739,0 34.81676035844642,32.2547298792441,0 34.81512691063121,32.2183950222189,0 34.7973376682284,32.17082339605933,0 34.78328137226868,32.14478418910011,0 34.78361374880031,32.13296811795738,0 34.77168081692157,32.12240962593815,0 34.76528598769924,32.09200596096574,0 34.7505701599151,32.07059745745181,0 34.73960917780482,32.03718596465564,0 34.7376924425903,32.02299971824551,0 34.71706288307843,31.97457841019794,0 34.6528580292137,31.85448550693811,0 34.63978886375067,31.82186104363606,0 34.61951060027326,31.79282818711127,0 34.61360635797825,31.77303965307225,0 34.58422431416957,31.73686049453671,0 34.5766115911162,31.72535868053039,0 34.57077870481133,31.70926101647596,0 34.50537781297322,31.62225486501358,0 34.50953817342476,31.60411952643383,0 34.47868075966473,31.60834570454229,0 34.38080014970485,31.47913819048518,0 34.49849959019222,31.6063710503755,0 34.50841450928063,31.60432915706085,0 34.49854738687681,31.60005334649614,0 34.49850305612364,31.60426109271888,0 34.47388198958119,31.59358704783573,0 34.46417495852167,31.56612990410538,0 34.43713217715964,31.54487671066068,0 34.37090031843918,31.47906933621719,0 34.29256561061545,31.38564255828915,0 34.23361276887638,31.33654774883018,0 34.16449883360877,31.27928083119739,0 34.01266566509648,31.20975613126886,0 33.98880851925475,31.20033973448739,0 33.97342235247798,31.19378845347567,0 33.97031950244862,31.19541745361027,0 33.94807199618885,31.1885070501854,0 33.73570769443621,31.12968045244874,0 33.70039211900482,31.12988013964994,0 33.70141143704041,31.12631736175922,0 33.53190997556986,31.11756998133686,0 33.39880291553637,31.16533775794424,0 33.17049207348464,31.23471742719591,0 33.10563663816949,31.22870208935808,0 32.80886396743688,31.09015573015875,0 32.52270724736592,30.89994549437357,0 33.69766845181216,29.46185210631509,0 34.14441245663846,29.49657293895701,0 34.41504623696955,29.48617333948054,0 34.67196372217512,29.46555564871075,0 34.8015557110346,29.45188669423912,0 34.8654371339819,29.4490565549574,0 34.9161216493995,29.52155446367793,0 34.94206552037598,29.52914047999534,0 34.98030251141702,29.56806006623236,0 34.99645567737732,29.57354011625706,0 34.99639494789933,29.59189785499606,0 35.09166850849959,29.89410047680289,0 35.09146901362561,29.95959828337745,0 35.11376668421511,30.00171209667009,0 35.12502549972768,30.05489279214715,0 35.1352529544574,30.08375538099684,0 35.17868004907456,30.15122591768608,0 35.18578213173221,30.18534456612798,0 35.17259753857137,30.21847480083035,0 35.1627102047614,30.24892999849603,0 35.171212594599,30.31381567822265,0 35.17593897312602,30.33197215650787,0 35.18873406100725,30.35534192404898,0 35.19693031570294,30.37166064343647,0 35.19583596199036,30.38929659062167,0 35.19264149987398,30.40611897512206,0 35.18935526222236,30.41504255815191,0 35.18396397660983,30.43697845897047,0 35.17967882582204,30.46600212840382,0 35.18969084444081,30.49282333223971,0 35.21160945329695,30.55618693315664,0 35.21782676560316,30.59591259904256,0 35.23074239621157,30.62530713580593,0 35.24243380156907,30.64505037854356,0 35.2685092711101,30.69870319412701,0 35.29549234953921,30.72991508377408,0 35.30549698227293,30.76416091213147,0 35.31207629970881,30.79560039069717,0 35.34824281729599,30.83902289399315,0 35.34502947636594,30.88640237518608,0 35.37243364663779,30.93372463716592,0 35.40846469586358,30.96527559429869,0 35.41798921690506,30.9806258373237,0 35.41621292273555,31.02659249089027,0 35.42566643946554,31.05429321051203,0 35.43848857577267,31.07323648210451,0 35.44081980647304,31.07623713439913,0 35.44083318282715,31.07723051155584,0 35.4610074455694,31.12132940196987,0 35.42410208101074,31.11696734672937,0 35.40909038952686,31.12372064557544,0 35.40103855216297,31.13358538648577,0 35.39773393942877,31.1546447423701,0 35.38391352867052,31.17756354754739,0 35.37485227134107,31.20895021004097,0 35.37397067336484,31.23977437726099,0 35.40868824222576,31.24155886324363,0 35.4124921845687,31.2830223409231,0 35.42117220311196,31.34640945427808,0 35.40461913129447,31.41824239166484,0 35.3991246033174,31.44214466809168,0 35.40861688441188,31.46132900946866,0 35.4062037444676,31.50501608955729,0 35.49797219577552,31.79359797429347,0 35.54792202891895,32.40838387555775,0 35.55733775161586,32.45004042408055,0 35.55677374214928,32.50956561588338,0 35.55496182289947,32.54416437399414,0 35.57429340742362,32.56279123806765,0 35.56535725255622,32.61048490349364,0 35.5502353732929,32.63800580564714,0 35.55125755749546,32.64183236192689,0 35.5770643084768,32.64258616269262,0 35.5985289379994,32.66989058121888,0 35.58645576402965,32.67820608853445,0 35.57789402079135,32.72184399313658,0 35.5612978308022,32.72874435445939,0 35.55668419881707,32.74785384149001,0 35.54107228119917,32.77606122998711,0 35.53629269195396,32.79103356660686,0 35.52896478713724,32.8010595648382,0 35.52675811527227,32.80981911716375,0 35.50723577052234,32.8245458676879,0 35.51199025596597,32.84373490623058,0 35.52165000908837,32.8606836254551,0 35.56303275155823,32.87743177055299,0 35.57810997511708,32.88814859568453,0 35.59298150140422,32.88965317476784,0 35.61294748143845,32.89407605703402,0 35.67165937071508,32.88920749212723,0 35.73188586908525,32.90800185567961,0 35.77393167667407,32.94511660083676,0 35.83996193841404,33.02928319265013,0 35.84625377069096,33.07806770367653,0 35.94622166973952,33.27585634781331,0 35.82743712020149,33.35810064186816,0 35.71555285375564,33.33032907423782,0 35.64277755841264,33.31309842174519,0 35.61857086961621,33.30796857474777,0 35.60359878816206,33.30451398379117,0 35.52136402402355,33.2551990399083,0 35.51584762263261,33.22472010123833,0 35.50885062001329,33.18697227537151,0 35.50368515251807,33.16039103432977,0 35.50203782554988,33.13354749756122,0 35.47526846891655,33.10624753760408,0 35.44543901840708,33.10377047027077,0 35.41581973232737,33.08595919200023,0 35.41340566591278,33.07895262051616,0 35.3460211484698,33.0720513592761,0 35.33012211148812,33.08250025854213,0 35.32260701680858,33.08663625780581,0 35.32228461371816,33.10137712115166,0 35.31381211089616,33.10842278488598,0 35.30207420979787,33.11193795751552,0 35.28532298818636,33.11473991394798,0 35.26457443492554,33.11044070100402,0 35.23544375849974,33.1054221891355,0 35.20953903202438,33.10797927218503,0 35.19790304645544,33.10713845936934,0 35.19298372935681,33.10143459014872,0 35.16800224078875,33.10477985357302,0 35.15719386358485,33.10403481804102,0 35.14216617918828,33.10150593113385,0 35.12300170171555,33.09989218467648,0 35.10881170190078,33.09975069518762,0 35.10502012276837,33.08482316967749,0 35.10093925879755,33.05028185872536,0 35.08984680196463,33.03200551679261,0 35.08364987659222,33.01734455632715,0 35.0849560393691,33.00074362549869,0 35.07520623771278,32.96969448089287,0 35.07423731678266,32.94784610875296,0 35.06657671802274,32.9321452954194,0 35.06783759872743,32.91796444568333,0 35.07851256142493,32.91404258385374,0 35.0813581059185,32.89995035269347,0 35.07253499421655,32.89716462906559,0 35.06447349854381,32.87100944439997,0 35.04832143120672,32.84825085952576,0 35.02096335974051,32.82947987891215,0 35.00354878966301,32.8424211481943,0 34.99291982736808,32.84692337035011,0 34.97848744684921,32.84608301221163,0 34.96814292032249,32.8432952713551,0 34.94771597244574,32.82405964268847,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+				<Folder id="day6_map">
+					<name>Day 6</name>
+					<!-- <LookAt>
+					     <gx:TimeSpan>
+					     <begin>1967-06-10T00:00:59Z</begin>
+					     <end>1967-06-11</end>
+					</gx:TimeSpan>
+					     <longitude>37.31069116206416</longitude>
+					     <latitude>31.26037631648837</latitude>
+					     <altitude>0</altitude>
+					     <heading>-7.468764692683683e-07</heading>
+					     <tilt>0</tilt>
+					     <range>1514936.330006588</range>
+					     <altitudeMode>relativeToGround</altitudeMode>
+					     <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					     <Style>
+					     <ListStyle>
+					     <listItemType>checkHideChildren</listItemType>
+					     <bgColor>00ffffff</bgColor>
+					     <maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+					</Style> -->
+					<Placemark>
+						<name>Israel's Borders - Day 6</name>
+						<TimeSpan>
+							<begin>1967-06-10T00:00:59Z</begin>
+							<end>1967-06-11</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Point>
+							<coordinates>34.85868447819848,31.1737093623432,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Day 6</name>
+						<TimeSpan>
+							<begin>1967-06-10T00:00:59Z</begin>
+							<end>1967-06-11</end>
+						</TimeSpan>
+						<styleUrl>#msn_noicon</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										34.94771597244574,32.82405964268847,0 34.94296902430377,32.78194671581744,0 34.9470851395925,32.75568273113176,0 34.95752820699168,32.74200732189688,0 34.94602265091638,32.73190805445886,0 34.93396639423327,32.7145117138049,0 34.92786056291619,32.69581568278255,0 34.91438298459519,32.62362326144165,0 34.92085763849665,32.60140350628659,0 34.91874846261896,32.56475919848738,0 34.90905155397429,32.53725063840234,0 34.90215580341584,32.52490653552402,0 34.89678608764041,32.51601163351916,0 34.89201933918686,32.49095116450975,0 34.89167694569952,32.47817869216313,0 34.88385408817617,32.45461958971037,0 34.8865171779743,32.42720007060902,0 34.87281772852793,32.40317413344471,0 34.86281155225839,32.39016287591716,0 34.84964649799293,32.33892905849233,0 34.8541408705446,32.32767135018302,0 34.84626946043667,32.32423735719426,0 34.82560542429698,32.28627954004739,0 34.81676035844642,32.2547298792441,0 34.81512691063121,32.2183950222189,0 34.7973376682284,32.17082339605933,0 34.78328137226868,32.14478418910011,0 34.78361374880031,32.13296811795738,0 34.77168081692157,32.12240962593815,0 34.76528598769924,32.09200596096574,0 34.7505701599151,32.07059745745181,0 34.73960917780482,32.03718596465564,0 34.7376924425903,32.02299971824551,0 34.71706288307843,31.97457841019794,0 34.6528580292137,31.85448550693811,0 34.63978886375067,31.82186104363606,0 34.61951060027326,31.79282818711127,0 34.61360635797825,31.77303965307225,0 34.58422431416957,31.73686049453671,0 34.5766115911162,31.72535868053039,0 34.57077870481133,31.70926101647596,0 34.49849959019222,31.6063710503755,0 34.49850305612364,31.60426109271888,0 34.48345317749959,31.58677128587129,0 34.46744326397081,31.56498406888646,0 34.44420683991601,31.53756834704965,0 34.37949989803727,31.46918547457066,0 34.29256561061545,31.38564255828915,0 34.23361276887638,31.33654774883018,0 34.16037900842318,31.2823744976438,0 34.09980981311172,31.24964861851695,0 34.01266566509648,31.20975613126886,0 33.98880851925475,31.20033973448739,0 33.97420720497319,31.19680673268703,0 33.96960137848676,31.19519387730191,0 33.89876010747172,31.16907510787939,0 33.73570769443621,31.12968045244874,0 33.70111533309321,31.12335596595526,0 33.63322003180132,31.11500170349323,0 33.57984784692596,31.11360099186476,0 33.53190997556986,31.11756998133686,0 33.39718283660068,31.17882433721166,0 33.2667875884618,31.21900622830892,0 33.10584199090071,31.23090807736506,0 32.79781362829179,31.08401992555294,0 32.74151882803977,31.07124720958831,0 32.65777081021381,31.0521559856849,0 32.55150254447987,31.07644874791604,0 32.42082666007022,31.18855806152687,0 32.34645583887674,31.23907833384099,0 32.30966273830573,31.27257384084778,0 32.21951732587038,31.28604445832987,0 32.0889699788227,31.34562798182353,0 32.1471834359558,31.24004774233842,0 32.29511763086443,31.18311904585996,0 32.32122179389426,30.83255935631156,0 32.34424754634782,30.71821118871728,0 32.30790637151552,30.57968291902871,0 32.30845672226593,30.55481547079846,0 32.33665056333691,30.5172140143863,0 32.36010206557736,30.41659103164327,0 32.37912254536559,30.40083148431046,0 32.39203082174787,30.37895807756699,0 32.40756947451074,30.37056895297369,0 32.41787361689381,30.37158427547439,0 32.44299159484772,30.34538663444038,0 32.4449623541597,30.30715395143263,0 32.45192055765297,30.28612507955416,0 32.47296420200836,30.27632550065037,0 32.53143359587311,30.25934483141724,0 32.55861848352794,30.23300826885349,0 32.5606373145726,30.22310652341302,0 32.57435759980717,30.21045482306013,0 32.57091060654179,30.16629567677525,0 32.56960138968549,30.15023529784746,0 32.57056968333201,30.09093032972818,0 32.57396978193668,30.0422033061488,0 32.58947959449318,29.98595844279151,0 32.56738654522987,29.92268783912466,0 32.63065678708423,29.86977943753129,0 32.62721430957616,29.84491437017164,0 32.61084921809753,29.82219522813806,0 32.64233390469565,29.79309379602428,0 32.65657286836297,29.77431452806735,0 32.65845845194229,29.75534811022192,0 32.67229794161773,29.75463196460495,0 32.68456553246331,29.74235070018076,0 32.69319878400368,29.7125271548219,0 32.67294906350617,29.66238602787636,0 32.68691490734329,29.60978862707757,0 32.68000035759903,29.59764189410422,0 32.7108700176761,29.57943838332834,0 32.72448340263216,29.54973285531703,0 32.71999158303277,29.51283966519329,0 32.73599505882115,29.49237198575526,0 32.72036104894531,29.44787423196824,0 32.76419576742792,29.4367950708469,0 32.79306980844479,29.41972626189071,0 32.82493302473356,29.38759118438078,0 32.81510408362809,29.35835431947626,0 32.82871158282028,29.34230000320441,0 32.82786785079406,29.33027968222117,0 32.83198447338754,29.31618519809276,0 32.84839693567244,29.30226922005235,0 32.86211999634528,29.29529592927681,0 32.87945492954832,29.27019885820675,0 32.87485880804552,29.25421648789395,0 32.89345296721398,29.2259423276109,0 32.91222642535863,29.2163332875302,0 32.92343500336241,29.20559050024018,0 32.94149401568662,29.20606652392214,0 32.97327825430013,29.16673549465293,0 32.99515924053691,29.16099065314604,0 33.07537038227958,29.08553056391902,0 33.08030773636004,29.06704294431205,0 33.09734963868229,29.05604942906167,0 33.10139812044985,29.04534500710592,0 33.12017612938277,29.0424143814895,0 33.13452144828317,29.02873187185425,0 33.15123694491636,29.02276179575131,0 33.15344634956755,29.02139809778226,0 33.16211687773881,29.00687159027914,0 33.17901374930901,28.99978879143945,0 33.16658764499224,28.95552877825107,0 33.18846098398238,28.92496341793112,0 33.17467000938871,28.86006165916789,0 33.18130921245295,28.83275911026699,0 33.20804034586935,28.80501906130472,0 33.22840817405343,28.77014533041087,0 33.2073852656989,28.70586379164255,0 33.20165117418943,28.66257606072621,0 33.22041185858676,28.6292017408593,0 33.22543115450743,28.58680095944782,0 33.25470911362567,28.57876066646185,0 33.26111844585746,28.56963171776917,0 33.28766558183627,28.51207581781786,0 33.32221324349226,28.48124587845452,0 33.34337059115066,28.47020978604228,0 33.36714225654731,28.45472212188689,0 33.37844225516907,28.42843774064066,0 33.39465686247718,28.40827588693072,0 33.43604640687894,28.36587485939503,0 33.50323647275248,28.32311386807217,0 33.56258762571228,28.29098346961427,0 33.57663685298964,28.27213101208343,0 33.59364821612766,28.25782907053156,0 33.59752420778567,28.24248909778232,0 33.61677291377562,28.23614461268124,0 33.62621917898674,28.1814610397156,0 33.66440231723443,28.16031964008326,0 33.6814448690552,28.09573197494815,0 33.96528330025728,27.89699143924937,0 34.04894558411397,27.81875718371545,0 34.09511027968511,27.79445736782207,0 34.18559933976099,27.7815038549727,0 34.25329267379934,27.72832569508137,0 34.28297254964912,27.85311112185114,0 34.31461710823389,27.850381905983,0 34.32965054000406,27.88907596430379,0 34.3310675013706,27.91151095453183,0 34.34499906991292,27.90914691620478,0 34.35249399079204,27.91510295752609,0 34.3643404475209,27.91407718983707,0 34.36711205749237,27.9291111689448,0 34.37920737611294,27.93353251732767,0 34.38600004897901,27.95021760517483,0 34.41609280539664,27.9637108306158,0 34.435154260734,27.98051697678009,0 34.44685095851995,28.04837828935153,0 34.4393162158589,28.06956386441747,0 34.43229695177534,28.06747067364267,0 34.42810637866147,28.08370650241309,0 34.43989817976534,28.09354281204763,0 34.44387958831083,28.11585394797503,0 34.43764160683992,28.1367081825236,0 34.44708269290487,28.15275214105112,0 34.45202139499374,28.18013740927244,0 34.42311306906856,28.21848360409533,0 34.41005519024255,28.29038034857388,0 34.41227008331729,28.32158480944443,0 34.43568416232357,28.35317713707636,0 34.45079721427928,28.38877751997081,0 34.4532884224656,28.41800261005566,0 34.456862000661,28.43301347564141,0 34.47119273810424,28.43932945504706,0 34.47027767841089,28.45438697927609,0 34.49245533275604,28.48189679088047,0 34.5099893794494,28.47026583488003,0 34.51942968399127,28.49653514263976,0 34.51528344760229,28.51602016421112,0 34.51967137901433,28.55622285994431,0 34.54250975177541,28.57737299312418,0 34.55247807798714,28.60753146934293,0 34.57957184942191,28.62929949912538,0 34.57562377831607,28.6518209963503,0 34.62493999497653,28.72854627304175,0 34.62629555562226,28.76566496982457,0 34.62259649691909,28.8366816808088,0 34.64667175609866,28.85400211877765,0 34.64514650616495,28.92157721953538,0 34.64205555581292,28.94442683769318,0 34.65045347830313,28.96466243798067,0 34.68509265302772,28.97734061355445,0 34.68765462518778,29.00099750082683,0 34.66737274262468,29.0421846554276,0 34.6896710775805,29.1243712415788,0 34.69484017974646,29.16088960412298,0 34.71620384642675,29.17093118369809,0 34.7361256045771,29.20573209822555,0 34.7410947599115,29.23033351596195,0 34.736312371624,29.25300308057714,0 34.74584428569344,29.29461326533011,0 34.79946632530381,29.41241841184167,0 34.8015557110346,29.45188669423912,0 34.8654371339819,29.4490565549574,0 34.9161216493995,29.52155446367793,0 34.94206552037598,29.52914047999534,0 34.97788338872711,29.54364674620417,0 34.9780191081894,29.57597723523509,0 34.99388906134531,29.6166434504433,0 35.01784315986993,29.64931541156067,0 35.01446668504256,29.6961558542262,0 35.03346004042139,29.78048266076554,0 35.04619694020219,29.79328139067447,0 35.04774405715899,29.80786672170327,0 35.05284212628598,29.81360709388726,0 35.05184528239137,29.82465648877021,0 35.07076787441007,29.8648521282826,0 35.08565795353139,29.89024434049727,0 35.08067266625154,29.92338202463691,0 35.07815020832119,29.93089330854422,0 35.08380491924795,29.94545207783947,0 35.07771920443461,29.95517376619672,0 35.08948532192861,29.96839020503613,0 35.09924861068144,29.99130740728407,0 35.11505507024899,29.99612541495189,0 35.11660244466977,30.00185458630672,0 35.10947711188965,30.00451755583765,0 35.11050982165921,30.00892529079454,0 35.10341657861937,30.01333059948747,0 35.11163390460359,30.0393338410717,0 35.12338890884783,30.05475467310161,0 35.13260507644377,30.06395415021733,0 35.14382040609105,30.06478856446714,0 35.15203034253853,30.08461783044451,0 35.15979992491526,30.12339577579498,0 35.16085588771273,30.13487027978485,0 35.15375439466903,30.14546242037496,0 35.15479843774698,30.15431862577445,0 35.14414046605297,30.16461321471933,0 35.15192650583835,30.2077817049402,0 35.14540068420912,30.24129232114668,0 35.15054179027137,30.25495117048383,0 35.14603671616494,30.28495577584703,0 35.1537656195189,30.3083324546756,0 35.16861673276156,30.31932689104648,0 35.19121086986929,30.34845343112011,0 35.18715267322177,30.35729233529586,0 35.16581979532244,30.40389319100687,0 35.1608281413203,30.4413606802667,0 35.17163234685179,30.45546501046991,0 35.1773004328145,30.46472614523134,0 35.17967882582204,30.46600212840382,0 35.18867302206537,30.49164545535972,0 35.1938393356568,30.5022354868632,0 35.19242513421331,30.53408715833629,0 35.2032737687131,30.55001640237229,0 35.20508379459668,30.58466174693321,0 35.23074239621157,30.62530713580593,0 35.24177374911257,30.64559588477347,0 35.26447740332754,30.66145854454986,0 35.27956269341015,30.70966419942256,0 35.29142130485537,30.71139573304825,0 35.29506175387365,30.71935638744332,0 35.28786144013706,30.72469820700147,0 35.29304221690533,30.73265701756046,0 35.2952009574884,30.76057893388845,0 35.30709692613317,30.76496221624127,0 35.31858197952699,30.79506681440743,0 35.33665134024384,30.8012363305967,0 35.34084561630422,30.81676870461145,0 35.33063001993342,30.84749953521233,0 35.34502947636594,30.88640237518608,0 35.36991431694239,30.9264082127601,0 35.39005179152672,30.92673297345805,0 35.40304296159606,30.93644572679049,0 35.41815899942301,30.95282153211706,0 35.41667773531769,30.96704928433883,0 35.41798921690506,30.9806258373237,0 35.41621292273555,31.02659249089027,0 35.42566643946554,31.05429321051203,0 35.43848857577267,31.07323648210451,0 35.44081980647304,31.07623713439913,0 35.44083318282715,31.07723051155584,0 35.4610074455694,31.12132940196987,0 35.44917684318224,31.16147723867104,0 35.42165551858895,31.20144089844774,0 35.39769201777668,31.24213047363499,0 35.40145168125429,31.2704885308148,0 35.41440771348459,31.29657728790751,0 35.43910211318043,31.3329428707972,0 35.45332074625058,31.35601276263637,0 35.46921653664814,31.39596984768075,0 35.47680480666275,31.43996430267459,0 35.47715497790645,31.49631862341361,0 35.49580458886801,31.62568124075996,0 35.55478878893727,31.74959621862976,0 35.54792202891895,32.40838387555775,0 35.55733775161586,32.45004042408055,0 35.55677374214928,32.50956561588338,0 35.55496182289947,32.54416437399414,0 35.57429340742362,32.56279123806765,0 35.56535725255622,32.61048490349364,0 35.5502353732929,32.63800580564714,0 35.55125755749546,32.64183236192689,0 35.5770643084768,32.64258616269262,0 35.5985289379994,32.66989058121888,0 35.58645576402965,32.67820608853445,0 35.57789402079135,32.72184399313658,0 35.56635425688477,32.73185536858306,0 35.56077901474998,32.75277486057131,0 35.55624887535133,32.7614607457181,0 35.54107228119917,32.77606122998711,0 35.53629269195396,32.79103356660686,0 35.52896478713724,32.8010595648382,0 35.52675811527227,32.80981911716375,0 35.51364940956147,32.82495341054738,0 35.51720775480642,32.8418246325112,0 35.52765258661901,32.85481246117108,0 35.56303275155823,32.87743177055299,0 35.57810997511708,32.88814859568453,0 35.59298150140422,32.88965317476784,0 35.61338857993706,32.89254244563641,0 35.6214846702009,32.89054966170607,0 35.62896019946725,32.88296311347133,0 35.64655986670271,32.863815188763,0 35.64719421450798,32.85542673729133,0 35.64688252559899,32.8554001684422,0 35.64964320785722,32.83930221047267,0 35.64299621712927,32.83396970710993,0 35.64633288976966,32.81171032774198,0 35.64015043814403,32.7968484163301,0 35.64059942142063,32.79283844776365,0 35.63651667484108,32.7844090985602,0 35.64124639134091,32.77156793717446,0 35.63453841879578,32.74773746897244,0 35.6158226793613,32.72109139182157,0 35.59489503824243,32.70486540510539,0 35.62351605698508,32.68735409909568,0 35.62978503449465,32.68308550536549,0 35.63503449129288,32.68545080994182,0 35.63834084952892,32.68263883965418,0 35.64470637749028,32.6791396177878,0 35.64537731967111,32.67718178231227,0 35.65216159573377,32.68223609769093,0 35.65570582552611,32.68527523923571,0 35.65919123646802,32.68495221550016,0 35.6616577331982,32.68131472973565,0 35.6648531398143,32.68154575076203,0 35.66448375605216,32.68074582473469,0 35.66425653858526,32.68072730697387,0 35.66829498508076,32.68356212380515,0 35.67223168306933,32.68507331705402,0 35.67430933072123,32.68470439372024,0 35.67108405825767,32.69326945666942,0 35.67506204497472,32.6968403602617,0 35.67638954036353,32.70332558669476,0 35.67500197066695,32.70534941054633,0 35.68044284795144,32.70597309391284,0 35.68710625974168,32.70925788407389,0 35.69523641061792,32.71047418950498,0 35.69911065996359,32.71252769828288,0 35.70050774335412,32.71244045444131,0 35.7020741288251,32.71505999292733,0 35.70649358360303,32.71463420670241,0 35.70951607998213,32.71641379603495,0 35.71011341898068,32.71897977414127,0 35.71561438753751,32.7159834284645,0 35.71850806020461,32.71983818668922,0 35.71831088999671,32.72349127557464,0 35.72364183013336,32.72220095469834,0 35.72464527572347,32.72612002896888,0 35.72815874891716,32.72698818323279,0 35.7298430868692,32.72498498878998,0 35.73164776090684,32.72263568793346,0 35.73528291737608,32.72795570577097,0 35.73715600737489,32.73311696750475,0 35.74206778544256,32.73039241743397,0 35.74787590126489,32.73279461244721,0 35.75100527657172,32.73766576393697,0 35.75300372340634,32.73974158091955,0 35.7540526680945,32.74329583003341,0 35.76659907324683,32.75175175604494,0 35.783713729582,32.76928002337936,0 35.80084273173458,32.78136730299586,0 35.82351269385822,32.79411630364534,0 35.84667314069133,32.83108928097526,0 35.84973769304087,32.84834842890277,0 35.87075809538395,32.88836657895907,0 35.89406932274754,32.92475888621809,0 35.91053420586902,32.93300347366032,0 35.92500927348159,32.94266725345815,0 35.92994368931688,32.94894902923798,0 35.93090454613541,32.95323487092996,0 35.92761268942957,32.96067100654109,0 35.92553519145541,32.96255254247505,0 35.91502943027713,32.97815934814631,0 35.90950845902752,32.98230049116094,0 35.89240484740149,32.98782451401801,0 35.88736364298078,32.99174022699248,0 35.86986139515206,33.08214857093368,0 35.8713524504664,33.10978132067973,0 35.90467104617329,33.10751889141696,0 35.90679078806864,33.11504018681104,0 35.89918315744712,33.11717979704374,0 35.89665389702949,33.11959775044118,0 35.89645384183968,33.12385192434302,0 35.90876913426597,33.13107281918746,0 35.91938338422938,33.15491290584781,0 35.91611545920476,33.16917906149349,0 35.91138039112039,33.17414554713303,0 35.90526177111693,33.17604722964879,0 35.89804620867611,33.1748976844571,0 35.89093368550031,33.174113768138,0 35.88735656864011,33.17585584382995,0 35.88461170253643,33.18026903922981,0 35.88724543740719,33.18875296566816,0 35.89102511333743,33.19183275577694,0 35.89127340657008,33.19786352293195,0 35.8728304486682,33.2224326014686,0 35.86285406157651,33.24992723993678,0 35.86103403018361,33.26024416814759,0 35.85142711270628,33.27437385586647,0 35.84694608313949,33.27686532829741,0 35.84031193923902,33.27864563778096,0 35.82408657501364,33.27933841969165,0 35.82254789787667,33.28098858091276,0 35.82202691595217,33.28094686264757,0 35.82075761932602,33.28400827581437,0 35.83728173096622,33.30051328207148,0 35.84123226831331,33.3098668937668,0 35.83767345403912,33.32749585741642,0 35.83565902038377,33.34855443485024,0 35.83777447775233,33.36139840934263,0 35.84152563081818,33.37031781207362,0 35.85691747750714,33.38803986138134,0 35.87029507854719,33.40382865150037,0 35.87309207818804,33.4114481580031,0 35.87271276110719,33.42049659800958,0 35.86556647080299,33.41943827206903,0 35.85766667733257,33.41664312069395,0 35.85637083053393,33.4143403742472,0 35.85418797775544,33.41464216193602,0 35.85171692754471,33.41320976950368,0 35.84748262006366,33.41336135809476,0 35.8440771935481,33.40911584300698,0 35.84163965323701,33.40571595984932,0 35.8369030794038,33.40308042058154,0 35.83300869994584,33.40124023492815,0 35.83103268273774,33.39933717849545,0 35.82681149572861,33.39759060155217,0 35.82241277501889,33.39272069515825,0 35.81904500205219,33.38672238613638,0 35.8184241865081,33.3830139793038,0 35.81911935393538,33.38082385891721,0 35.81684640297212,33.37387228956022,0 35.81558823731579,33.36964990731094,0 35.81908990939224,33.36592090778714,0 35.82033109128734,33.36137744713442,0 35.8197429010969,33.35744011181137,0 35.81620519879558,33.35229104109253,0 35.81172710584289,33.3521786831182,0 35.81130879789413,33.35029221249825,0 35.8081441702614,33.34871357190822,0 35.8026006575382,33.34429665717367,0 35.79742779130818,33.34098166492027,0 35.79370914416538,33.33884087370566,0 35.79333180809486,33.33773177509434,0 35.79160614781934,33.33599394479481,0 35.7859238517524,33.33553217395323,0 35.78411887809544,33.33489858639731,0 35.78163900641272,33.33581742405062,0 35.7789850906434,33.33404655291095,0 35.77507387919206,33.33442827426168,0 35.77172499316781,33.33236733286294,0 35.76809993920156,33.33302104104912,0 35.76117070584926,33.33010106764466,0 35.75917811195472,33.33052742419029,0 35.75675434424798,33.32899353560655,0 35.75293027167492,33.32945925751733,0 35.74744346046047,33.32680178273527,0 35.73801692531005,33.31858794104692,0 35.73028115644631,33.32604685222734,0 35.72937460420425,33.32922945658162,0 35.72507243664991,33.33055826180404,0 35.7177294423257,33.32691297067455,0 35.71456230822839,33.32537784235222,0 35.71327126738696,33.32224589532731,0 35.71351360326594,33.31971958701941,0 35.71196735382456,33.31860536685263,0 35.71170395807022,33.31650660528036,0 35.71263125239165,33.31287639161914,0 35.71449854933393,33.31141830363399,0 35.71059568939155,33.30506306711713,0 35.70379860825399,33.30204209566718,0 35.70261593642199,33.30053040275008,0 35.69882178693418,33.3007286525376,0 35.69599235062926,33.29684346561294,0 35.69002122733409,33.29817337352031,0 35.69204882538995,33.29803174098562,0 35.68213901878447,33.29200356236571,0 35.67814742547379,33.29438185087857,0 35.67512417237386,33.29252162284176,0 35.66860350500615,33.28642916596844,0 35.66734822943702,33.28207789778265,0 35.6598120235976,33.2749701309575,0 35.64291529577773,33.28038395140808,0 35.62133690041551,33.27039514996417,0 35.62115872385557,33.26343904067015,0 35.62275842555595,33.26062494336026,0 35.62057927181699,33.25724248786528,0 35.61900454826226,33.25417447927359,0 35.62305193671485,33.2523586575364,0 35.62233961962421,33.25016116293941,0 35.62463301666811,33.24686462872355,0 35.62270879344363,33.24403408432367,0 35.61188432497357,33.24931983646291,0 35.5988121566873,33.25494398344136,0 35.59393602170733,33.26149027552196,0 35.58573407547654,33.2666789297794,0 35.58472718477666,33.28150491296977,0 35.57896556349404,33.2874259235395,0 35.56874368483567,33.29107331079523,0 35.5642818882358,33.28831739952579,0 35.56429843546967,33.27612576250529,0 35.55928962209139,33.26896184415998,0 35.55816277758626,33.26615803040692,0 35.55490850397172,33.25949085467001,0 35.54615839860161,33.25527250550601,0 35.54547266165461,33.23881857014906,0 35.53864257301528,33.23323678459099,0 35.53625847542763,33.20754795870887,0 35.54283158750365,33.19940708706687,0 35.52564206040458,33.13929225796542,0 35.53172518534177,33.13295941290647,0 35.52000177632955,33.11689761808589,0 35.50265054871594,33.1144824314665,0 35.50329898661728,33.09108638084673,0 35.446749008229,33.09104487850046,0 35.43111440959394,33.06559481314029,0 35.39569743955827,33.06115906325162,0 35.38286826638681,33.06269823056845,0 35.37827718321095,33.05627722135574,0 35.35651233489324,33.05806651110461,0 35.34844976428841,33.05972048697218,0 35.34374255035351,33.06580576926467,0 35.33864568848793,33.06812291568759,0 35.33416814942591,33.07654308988867,0 35.3261042999352,33.08149236154959,0 35.32419347092694,33.08348766498246,0 35.32132770844846,33.08754707720505,0 35.32442935221924,33.0955145664631,0 35.31674248195925,33.1045340021183,0 35.30932256324394,33.10101186739256,0 35.30144985053879,33.10045673691656,0 35.29957144914414,33.10500122399686,0 35.29518023597911,33.10757856208895,0 35.28839249455118,33.10588041685888,0 35.2812035733423,33.10104683211242,0 35.27072489398221,33.10042413458438,0 35.26534787131646,33.09863332453174,0 35.26289365995169,33.09841962368697,0 35.26161747233783,33.0971539839987,0 35.25547722122534,33.09569949986352,0 35.25128712118033,33.09587699162473,0 35.24503892445124,33.09461672769349,0 35.24289657872129,33.09336460184872,0 35.24263644396739,33.09328644949878,0 35.23903746014958,33.09216926780006,0 35.23201485587067,33.09350336415053,0 35.22818540687054,33.09631891894268,0 35.22676531495981,33.09860274394008,0 35.22440614621151,33.09881059244601,0 35.2203444088482,33.09934669984656,0 35.21873029923437,33.09920655731189,0 35.21588123612813,33.09998796021417,0 35.21406881659732,33.09977557347035,0 35.21182810754152,33.09990380352868,0 35.21017510592355,33.0986262496253,0 35.20842195241543,33.09607559786868,0 35.20663181140122,33.09410836246121,0 35.20712541491848,33.09300179793346,0 35.20830150252551,33.09200018178085,0 35.20852570782279,33.09094126037737,0 35.2065132030016,33.08831742691052,0 35.20579315685889,33.08811143681096,0 35.20439959709399,33.08847643505399,0 35.20246300955957,33.08809282210985,0 35.20161047006024,33.08775129169238,0 35.20022053312564,33.08775796073435,0 35.19815416406195,33.08704080523417,0 35.19640525246377,33.08625310239351,0 35.19476138029678,33.08620437280974,0 35.19377243242531,33.08566600378126,0 35.19330648575455,33.08524970269149,0 35.19277837026981,33.08633972332402,0 35.19004178919722,33.08935920081102,0 35.1857408838501,33.08960504980912,0 35.17834830686619,33.09396636792845,0 35.17515052575698,33.09399253739402,0 35.17424969270287,33.09374721428564,0 35.17348445555182,33.09380601633612,0 35.17272622284003,33.09379205931,0 35.17222973524133,33.09326130062789,0 35.17176194218776,33.09324675726037,0 35.17110870545198,33.09198475948547,0 35.16914591058136,33.09089544383385,0 35.16858639356722,33.09117309810822,0 35.16830518068178,33.0909216471434,0 35.16734901514442,33.09083668981377,0 35.16604897071788,33.08995303034659,0 35.16548817306133,33.08987993895641,0 35.16495011000234,33.08945686982347,0 35.16317340968401,33.08890169860431,0 35.16244726614242,33.08900987942432,0 35.16184589182364,33.08855198025805,0 35.16028205899681,33.08884572155355,0 35.15817351787726,33.0872171243433,0 35.15722379417869,33.08620759977453,0 35.15541671707212,33.08611033456103,0 35.15585280667155,33.09150420058559,0 35.15068053978349,33.09130405444759,0 35.15059271419437,33.09086608251101,0 35.14515222568473,33.0919293870253,0 35.14008455313381,33.09207158272386,0 35.1379030450081,33.09164536429969,0 35.13520765358237,33.09114904297138,0 35.12538356694438,33.09273197109192,0 35.11641607899229,33.09249686450474,0 35.10502012276837,33.08482316967749,0 35.10093925879755,33.05028185872536,0 35.08984680196463,33.03200551679261,0 35.08364987659222,33.01734455632715,0 35.0849560393691,33.00074362549869,0 35.07520623771278,32.96969448089287,0 35.07423731678266,32.94784610875296,0 35.06657671802274,32.9321452954194,0 35.06783759872743,32.91796444568333,0 35.07851256142493,32.91404258385374,0 35.0813581059185,32.89995035269347,0 35.07253499421655,32.89716462906559,0 35.06447349854381,32.87100944439997,0 35.04832143120672,32.84825085952576,0 35.02096335974051,32.82947987891215,0 35.00354878966301,32.8424211481943,0 34.99291982736808,32.84692337035011,0 34.97848744684921,32.84608301221163,0 34.96814292032249,32.8432952713551,0 34.94771597244574,32.82405964268847,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+			</Folder>
+			<name>Data</name>
+			<open>0</open>
+			<visibility>1</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+				</ListStyle>
+			</Style>
+			<Folder id="tourdata">
+				<name>Tour Data</name>
+				<open>0</open>
+				<visibility>1</visibility>
+				<Folder>
+					<name>placeholder</name>
+					<visibility>1</visibility>
+				</Folder>
+				<Folder id="israeli-flag">
+					<name>israeli-flag</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/israeli-flag.png</href>
+						</Icon>
+						<overlayXY x="0.00" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.05" y="0.66" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="syrian-flag">
+					<name>syrian-flag</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/syrian-flag.png</href>
+						</Icon>
+						<overlayXY x="0.50" y="1.00" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.95" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="iraqi-flag">
+					<name>iraqi-flag</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/iraqi-flag.png</href>
+						</Icon>
+						<overlayXY x="1.00" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.95" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="jordanian-flag">
+					<name>jordanian-flag</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/jordanian-flag.png</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.55" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="soldiers-on-wall">
+					<name>soldiers-on-wall</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/soldiers-on-wall.jpg</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="operation-focus-plane">
+					<name>operation-focus-plane</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/operation_focus_plane.jpg</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="play-button">
+					<name>play-button</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/play-button.png</href>
+						</Icon>
+						<overlayXY x="0.00" y="0.00" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.00" y="0.00" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="pause-button">
+					<name>pause-button</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/pause-button.png</href>
+						</Icon>
+						<overlayXY x="0.00" y="0.00" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.00" y="0.00" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="zoom-button">
+					<name>zoom-button</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/zoom-button.png</href>
+						</Icon>
+						<overlayXY x="1.00" y="1.00" xunits="fraction" yunits="fraction"/>
+						<screenXY x="1.00" y="1.00" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="suezcanal">
+					<name>suezcanal</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/suezcanal.png</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="fighters">
+					<name>fighters</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/fighters.jpg</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="nasser">
+					<name>nasser</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/nasser.png</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="ussr-flag">
+					<name>ussr-flag</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/ussr-flag.png</href>
+						</Icon>
+						<overlayXY x="1.00" y="1.00" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.95" y="0.95" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="arab-aircrafts-1967-image1">
+					<name>arab-aircrafts-1967-image1</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/arab-aircrafts-1967-image1.png</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="israel-and-syria-image2">
+					<name>israel-and-syria-image2</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/israel-and-syria-image2.png</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="nasser2">
+					<name>nasser2</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/nasser.jpg</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="jordan-pact">
+					<name>jordan-pact</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/jordan-pact.jpg</href>
+						</Icon>
+						<overlayXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.50" y="0.50" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+				<Folder id="egypt-flag">
+					<name>egypt-flag</name>
+					<open>0</open>
+					<visibility>0</visibility>
+					<ScreenOverlay>
+						<Icon>
+							<href>http://battis.net/sandbox/nofim/6daywar/images/egypt-flag.png</href>
+						</Icon>
+						<overlayXY x="0.00" y="0.00" xunits="fraction" yunits="fraction"/>
+						<screenXY x="0.05" y="0.05" xunits="fraction" yunits="fraction"/>
+						<size x="0" y="0" xunits="pixel" yunits="pixel"/>
+					</ScreenOverlay>
+				</Folder>
+			</Folder>
+		</Folder>
+	</Document>
+</kml>
